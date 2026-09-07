@@ -1,0 +1,165 @@
+<div align="center">
+
+# Colegio Los Almendros
+
+**Anteproyecto conceptual de un colegio privado en un monasterio valenciano del siglo XVII rehabilitado**
+
+![Estado](https://img.shields.io/badge/estado-anteproyecto%20conceptual-2E7D32?style=flat-square)
+![Versión de referencias](https://img.shields.io/badge/referencias-v62-173344?style=flat-square)
+![Validación B1](https://img.shields.io/badge/validaci%C3%B3n%20B1-aprobada-B88A38?style=flat-square)
+![Idioma](https://img.shields.io/badge/documentaci%C3%B3n-espa%C3%B1ol-C62828?style=flat-square)
+
+<img src="imagenes/panel-presentacion/vista-general-almendros-en-flor-v47.png" alt="Vista general del recinto con los almendros en flor" width="100%">
+
+*Vista general v47: el monasterio de dos claustros en el centro, deporte al oeste, complejo acuático al nordeste y terminal de autobuses en el extremo oriental, rodeado por naranjales valencianos.*
+
+</div>
+
+---
+
+## El proyecto
+
+Colegio Los Almendros es un ejercicio de diseño arquitectónico asistido por inteligencia artificial. Parte de un gran monasterio valenciano del siglo XVII y lo transforma en un colegio de dos líneas, 30 grupos y unos 780 alumnos, desde Infantil hasta Bachillerato, respetando la arquitectura histórica exterior e interviniendo de forma contemporánea y reversible en el interior.
+
+Todo el conjunto se rige por un sistema documental que garantiza la coherencia entre imágenes, planos y decisiones. Cada imagen nueva debe respetar un masterplan fijo, unas reglas innegociables y un registro de referencias con estados de vigencia.
+
+### Principios de diseño
+
+| Principio | Concreción |
+|---|---|
+| **Respeto patrimonial** | Fachadas de piedra caliza restaurada, arquerías de medio punto tipo *riurau*, cubiertas de teja vidriada verde bosque y tres piñones integrados en la cubierta. |
+| **Dos claustros** | El edificio principal envuelve dos claustros consecutivos de 30 × 30 m alineados en el eje norte-sur, convertidos en jardines mediterráneos. |
+| **Masterplan fijo** | Secuencia oeste-este invariable: deporte, monasterio, parque y administración, complejo acuático, aparcamiento y terminal de autobuses. |
+| **Paisaje valenciano** | Naranjales productivos fuera del recinto, almendros en flor flanqueando la avenida de acceso y una alameda de plátanos de sombra. |
+| **Cerramiento continuo** | Muro de piedra y verja de forja en todo el perímetro, con la cancela monumental y su escudo calado como pieza de referencia. |
+
+---
+
+## Mapa maestro de zonas
+
+El campus se organiza en 22 zonas con código oficial. Estos códigos se utilizan en prompts, nombres de archivo, decisiones y conversaciones para evitar cualquier ambigüedad.
+
+<div align="center">
+<img src="imagenes/panel-presentacion/mapa-maestro-zonas-v48.png" alt="Mapa maestro de zonas v48" width="100%">
+</div>
+
+| Grupo | Códigos | Contenido |
+|---|---|---|
+| **A · Acceso y paisaje** | A1 – A4 | Cancela principal, avenida ceremonial con plátanos y los dos almendrales |
+| **B · Edificio histórico** | B1 – B3 | Edificio principal, claustro sur y claustro norte |
+| **C · Deporte oeste** | C1 – C3 | Atletismo y fútbol, pistas de tenis y el único gimnasio del campus |
+| **D · Complejo nordeste** | D1 – D5 | Jardín mediterráneo, centro acuático, pabellones de fútbol sala y voleibol, cafetería |
+| **E · Estancia y servicios** | E1 – E3 | Parque infantil, parque de estancia con 14 bancos, administración y seguridad |
+| **F · Movilidad** | F1 – F2 | Aparcamiento de coches y terminal pasante de autobuses |
+| **G · Recinto y entorno** | G1 – G2 | Cerramiento perimetral y naranjales exteriores |
+
+Detalle completo en [`documentacion/11_MAPA_MAESTRO_DE_ZONAS.md`](documentacion/11_MAPA_MAESTRO_DE_ZONAS.md).
+
+---
+
+## El edificio principal B1
+
+<div align="center">
+<img src="imagenes/entrada/fachada-entrada-plataneros-v36.png" alt="Fachada sur y alameda de plátanos" width="100%">
+
+*Fachada sur v36: tres plantas, 19 ejes en composición 8 + 3 + 8 y un único arco de acceso.*
+</div>
+
+El interior se ha organizado en un programa de **96 estancias** repartidas en tres plantas, cada una con su plano funcional coordinado y su catálogo de imágenes de ambiente.
+
+| Planta | Código | Uso principal | Estancias |
+|---|---|---|---:|
+| Baja | `B1-PB` | Infantil, Primaria 1.º–2.º, administración, salón de actos y comedor | 36 |
+| Primera | `B1-P1` | Primaria 3.º–6.º, biblioteca, arte, música, tecnología y apoyo | 28 |
+| Segunda | `B1-P2` | Secundaria, Bachillerato, laboratorios, informática y departamentos | 32 |
+
+<div align="center">
+<img src="imagenes/edificio-principal/interiores/claustros-b2-b3-vegetacion-adoquines-v62.png" alt="Claustros B2 y B3 con vegetación mediterránea" width="100%">
+
+*Claustros B2 y B3 v62: patios de 30 × 30 m con fuentes, parterres, almendros, olivos y adoquines de piedra natural.*
+</div>
+
+Planos vigentes: [planta baja](planos/b1-planta-baja-v49.png) · [planta primera](planos/b1-planta-primera-v49.png) · [planta segunda](planos/b1-planta-segunda-v49.png) · [lámina de las tres plantas](planos/b1-programa-tres-plantas-v49.png).
+
+---
+
+## Estructura del repositorio
+
+```
+Colegio_Los_Almendros/
+├── documentacion/        Sistema documental modular (índice, módulos por zona, decisiones, registro de imágenes)
+├── planos/               Planos funcionales de B1 en SVG editable y PNG
+├── imagenes/             Referencias visuales organizadas por zona, con sufijo de versión -vNN
+├── herramientas/         Scripts Node para generar planos, rotular catálogos y validar el programa
+├── PROMPT_ARQUITECTONICO_COLEGIO.md   Prompt histórico original, conservado como registro
+└── CLAUDE.md             Guía de trabajo para asistentes de IA en este repositorio
+```
+
+### Sistema documental
+
+La documentación sigue una jerarquía estricta. En caso de contradicción, manda el orden siguiente:
+
+1. [`00_INDICE_Y_REGLAS_MAESTRAS.md`](documentacion/00_INDICE_Y_REGLAS_MAESTRAS.md) y las decisiones vigentes de [`10_CAMBIOS_Y_DECISIONES.md`](documentacion/10_CAMBIOS_Y_DECISIONES.md).
+2. El módulo especializado de la zona afectada (`01` a `08`, `01A`, `01B`).
+3. El registro de imágenes de [`09_VISTAS_PANELES_Y_REFERENCIAS.md`](documentacion/09_VISTAS_PANELES_Y_REFERENCIAS.md).
+4. Las imágenes marcadas como `VIGENTE`.
+5. El prompt histórico, solo para recuperar contexto no contradictorio.
+
+Cada imagen del registro tiene un estado: `VIGENTE`, `AUXILIAR`, `PENDIENTE` u `OBSOLETA`. Una versión nueva nunca sobrescribe a la anterior: se añade con un sufijo `-vNN` superior y la antigua pasa a `OBSOLETA`.
+
+---
+
+## Herramientas
+
+Los scripts son módulos ES ejecutados con Node 22 y requieren ImageMagick 7 (`magick`). Se lanzan siempre desde la raíz del repositorio.
+
+```bash
+# Valida el programa interior B1: 96 códigos únicos, planos coherentes,
+# artefactos presentes y todos los enlaces de la documentación válidos
+node herramientas/validar_b1.mjs
+
+# Regenera los tres planos SVG de B1 a partir de la tabla de estancias
+node herramientas/generar_planos_b1.mjs
+
+# Rotula los catálogos de interiores con títulos y etiquetas de códigos
+node herramientas/rotular_interiores.mjs
+
+# Compone el panel de patrimonio y bienestar con la pareja de claustros v59
+node herramientas/actualizar_claustros_30m.mjs
+```
+
+Resultado actual del validador:
+
+```
+VALIDACIONES CORRECTAS: 269
+RESULTADO B1: APROBADO A NIVEL DE ANTEPROYECTO CONCEPTUAL
+```
+
+---
+
+## Flujo para proponer un cambio
+
+1. Identificar la zona afectada con su código oficial, por ejemplo `E2 — Parque de estancia y descanso`.
+2. Leer el índice maestro y el módulo correspondiente.
+3. Consultar únicamente imágenes `VIGENTE` o `AUXILIAR` autorizadas.
+4. Enumerar qué cambia y qué debe permanecer intacto.
+5. Generar o editar sin alterar el resto de zonas.
+6. Comprobar la lista de aceptación del módulo.
+7. Registrar la decisión con un nuevo ID `D-NNN` en el registro de cambios.
+8. Actualizar el estado de las imágenes afectadas y ejecutar el validador.
+
+---
+
+## Estado del proyecto
+
+- **17 decisiones consolidadas** (`D-001` a `D-017`), la última fija los claustros en 30 × 30 m.
+- **Referencias visuales hasta v62**, con panel exterior de ocho miniaturas y panel interior de 36 escenas.
+- **Anteproyecto conceptual**: las superficies y distribuciones son preliminares y deberán ajustarse tras un levantamiento métrico y estructural del edificio, así como al cumplimiento de la normativa educativa, de incendios y de accesibilidad.
+
+---
+
+<div align="center">
+
+Proyecto de **Javier Tamarit** · Imágenes y planos generados con herramientas de inteligencia artificial y ensamblados con ImageMagick
+
+</div>
