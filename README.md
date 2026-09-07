@@ -161,7 +161,9 @@ RESULTADO B1: APROBADO A NIVEL DE ANTEPROYECTO CONCEPTUAL
 
 ## Licencia
 
-Este proyecto se publica bajo la licencia [Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional](LICENSE) (CC BY-NC-SA 4.0). Puedes compartir y adaptar la documentación, los planos y las imágenes siempre que cites la autoría, no hagas un uso comercial y distribuyas las obras derivadas bajo la misma licencia.
+**Este repositorio es de uso exclusivamente NO comercial.**
+
+Se publica bajo la licencia [Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional](LICENSE) (CC BY-NC-SA 4.0). Puedes compartir y adaptar la documentación, los planos y las imágenes siempre que cites la autoría, no hagas ningún uso comercial y distribuyas las obras derivadas bajo la misma licencia. Cualquier uso comercial requiere autorización expresa del autor.
 
 ---
 
