@@ -8,6 +8,7 @@
 ![Versión de referencias](https://img.shields.io/badge/referencias-v62-173344?style=flat-square)
 ![Validación B1](https://img.shields.io/badge/validaci%C3%B3n%20B1-aprobada-B88A38?style=flat-square)
 ![Idioma](https://img.shields.io/badge/documentaci%C3%B3n-espa%C3%B1ol-C62828?style=flat-square)
+![Licencia](https://img.shields.io/badge/licencia-CC%20BY--NC--SA%204.0-555555?style=flat-square)
 
 <img src="imagenes/panel-presentacion/vista-general-almendros-en-flor-v47.png" alt="Vista general del recinto con los almendros en flor" width="100%">
 
@@ -155,6 +156,12 @@ RESULTADO B1: APROBADO A NIVEL DE ANTEPROYECTO CONCEPTUAL
 - **17 decisiones consolidadas** (`D-001` a `D-017`), la última fija los claustros en 30 × 30 m.
 - **Referencias visuales hasta v62**, con panel exterior de ocho miniaturas y panel interior de 36 escenas.
 - **Anteproyecto conceptual**: las superficies y distribuciones son preliminares y deberán ajustarse tras un levantamiento métrico y estructural del edificio, así como al cumplimiento de la normativa educativa, de incendios y de accesibilidad.
+
+---
+
+## Licencia
+
+Este proyecto se publica bajo la licencia [Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional](LICENSE) (CC BY-NC-SA 4.0). Puedes compartir y adaptar la documentación, los planos y las imágenes siempre que cites la autoría, no hagas un uso comercial y distribuyas las obras derivadas bajo la misma licencia.
 
 ---
 
