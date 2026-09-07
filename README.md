@@ -4,6 +4,7 @@
 
 **Anteproyecto conceptual de un colegio privado en un monasterio valenciano del siglo XVII rehabilitado**
 
+![Versión](https://img.shields.io/badge/versi%C3%B3n-1.0.0-1F6FEB?style=flat-square)
 ![Estado](https://img.shields.io/badge/estado-anteproyecto%20conceptual-2E7D32?style=flat-square)
 ![Versión de referencias](https://img.shields.io/badge/referencias-v62-173344?style=flat-square)
 ![Validación B1](https://img.shields.io/badge/validaci%C3%B3n%20B1-aprobada-B88A38?style=flat-square)
@@ -93,6 +94,8 @@ Colegio_Los_Almendros/
 ├── imagenes/             Referencias visuales organizadas por zona, con sufijo de versión -vNN
 ├── herramientas/         Scripts Node para generar planos, rotular catálogos y validar el programa
 ├── PROMPT_ARQUITECTONICO_COLEGIO.md   Prompt histórico original, conservado como registro
+├── CHANGELOG.md          Historial de versiones del repositorio
+├── LICENSE               Licencia CC BY-NC-SA 4.0
 └── CLAUDE.md             Guía de trabajo para asistentes de IA en este repositorio
 ```
 
@@ -153,7 +156,8 @@ RESULTADO B1: APROBADO A NIVEL DE ANTEPROYECTO CONCEPTUAL
 
 ## Estado del proyecto
 
-- **17 decisiones consolidadas** (`D-001` a `D-017`), la última fija los claustros en 30 × 30 m.
+- **Versión 1.0.0**, primera publicación del anteproyecto. Historial en [`CHANGELOG.md`](CHANGELOG.md).
+- **19 decisiones consolidadas** (`D-001` a `D-019`); la D-018 fija la vegetación y los adoquines de los claustros.
 - **Referencias visuales hasta v62**, con panel exterior de ocho miniaturas y panel interior de 36 escenas.
 - **Anteproyecto conceptual**: las superficies y distribuciones son preliminares y deberán ajustarse tras un levantamiento métrico y estructural del edificio, así como al cumplimiento de la normativa educativa, de incendios y de accesibilidad.
 

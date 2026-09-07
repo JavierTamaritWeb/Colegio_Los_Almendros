@@ -1,8 +1,8 @@
 # Colegio Los Almendros — índice y reglas maestras
 
 **Estado:** VIGENTE  
-**Versión:** 1.0  
-**Fecha:** 2026-09-02
+**Versión:** 1.1  
+**Fecha:** 2026-09-07
 
 ## Finalidad
 
@@ -35,6 +35,7 @@ Una imagen `AUXILIAR`, `PENDIENTE` u `OBSOLETA` nunca puede sustituir a una refe
 - [09_VISTAS_PANELES_Y_REFERENCIAS.md](09_VISTAS_PANELES_Y_REFERENCIAS.md)
 - [10_CAMBIOS_Y_DECISIONES.md](10_CAMBIOS_Y_DECISIONES.md)
 - [11_MAPA_MAESTRO_DE_ZONAS.md](11_MAPA_MAESTRO_DE_ZONAS.md)
+- [CLAUSTROS_V61_VEGETACION.md](CLAUSTROS_V61_VEGETACION.md) (ficha de las ediciones v61 y v62 de los claustros)
 
 ## Masterplan fijo
 

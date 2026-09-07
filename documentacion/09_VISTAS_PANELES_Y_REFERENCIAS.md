@@ -1,6 +1,6 @@
 # Vistas, paneles y registro de referencias
 
-**Estado:** VIGENTE · **Versión:** 1.1
+**Estado:** VIGENTE · **Versión:** 1.2
 
 ## Tipos de vista
 
@@ -46,12 +46,14 @@
 | [catalogo-interiores-patrimonio-bienestar-v54.png](../imagenes/edificio-principal/interiores/catalogo-interiores-patrimonio-bienestar-v54.png) | OBSOLETA | Los claustros no expresaban su dimensión cuadrada de 20 × 20 m |
 | [claustros-b2-b3-20x20-rotulado-v57.png](../imagenes/edificio-principal/interiores/claustros-b2-b3-20x20-rotulado-v57.png) | OBSOLETA | Sustituida al fijarse la medida correcta de 30 × 30 m |
 | [catalogo-interiores-patrimonio-bienestar-v57.png](../imagenes/edificio-principal/interiores/catalogo-interiores-patrimonio-bienestar-v57.png) | OBSOLETA | Sustituido por v59 |
-| [claustros-b2-b3-30x30-rotulado-v59.png](../imagenes/edificio-principal/interiores/claustros-b2-b3-30x30-rotulado-v59.png) | VIGENTE | Vistas específicas de B2 y B3, cuadrados de 30 × 30 m y tres plantas |
-| [catalogo-interiores-patrimonio-bienestar-v59.png](../imagenes/edificio-principal/interiores/catalogo-interiores-patrimonio-bienestar-v59.png) | VIGENTE | Claustros de 30 × 30 m, psicomotricidad, calma, proyectos y familias |
+| [claustros-b2-b3-30x30-rotulado-v59.png](../imagenes/edificio-principal/interiores/claustros-b2-b3-30x30-rotulado-v59.png) | VIGENTE | Rotulación y dimensión de B2 y B3, cuadrados de 30 × 30 m y tres plantas; la vegetación y el pavimento se toman de v62 |
+| [claustros-b2-b3-vegetacion-v61.png](../imagenes/edificio-principal/interiores/claustros-b2-b3-vegetacion-v61.png) | AUXILIAR | Vegetación mediterránea de los claustros; superada por v62 en el pavimento |
+| [claustros-b2-b3-vegetacion-adoquines-v62.png](../imagenes/edificio-principal/interiores/claustros-b2-b3-vegetacion-adoquines-v62.png) | VIGENTE | Vegetación, parterres y adoquines de piedra natural de B2 y B3 |
+| [catalogo-interiores-patrimonio-bienestar-v59.png](../imagenes/edificio-principal/interiores/catalogo-interiores-patrimonio-bienestar-v59.png) | PENDIENTE | Claustros de 30 × 30 m, psicomotricidad, calma, proyectos y familias; pendiente de incorporar la vegetación y adoquines de v62 |
 | [catalogo-interiores-apoyo-servicios-v55.png](../imagenes/edificio-principal/interiores/catalogo-interiores-apoyo-servicios-v55.png) | VIGENTE | Administración, estudio, mediateca y servicios |
 | [panel-programa-interior-b1-v56.png](../imagenes/edificio-principal/panel-programa-interior-b1-v56.png) | OBSOLETA | Sustituido por v58 al corregirse los claustros |
 | [panel-programa-interior-b1-v58.png](../imagenes/edificio-principal/panel-programa-interior-b1-v58.png) | OBSOLETA | Sustituido por v60 al fijarse los claustros en 30 × 30 m |
-| [panel-programa-interior-b1-v60.png](../imagenes/edificio-principal/panel-programa-interior-b1-v60.png) | VIGENTE | Panel conjunto actualizado de 36 escenas interiores conceptuales |
+| [panel-programa-interior-b1-v60.png](../imagenes/edificio-principal/panel-programa-interior-b1-v60.png) | PENDIENTE | Panel conjunto de 36 escenas interiores conceptuales; pendiente de incorporar los claustros de v62 |
 | [cancela.png](../imagenes/entrada/cancela.png) | VIGENTE | Cancela y escudo calado |
 | [detalle-muro-verja-perimetral-v45.png](../imagenes/entrada/detalle-muro-verja-perimetral-v45.png) | VIGENTE | Cerramiento perimetral |
 | [gimnasio.png](../imagenes/gimnasio/gimnasio.png) | VIGENTE | Interior y equipamiento del gimnasio |

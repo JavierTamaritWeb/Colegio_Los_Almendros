@@ -1,6 +1,6 @@
 # Cambios y decisiones del proyecto
 
-**Estado:** VIGENTE · **Versión:** 1.0
+**Estado:** VIGENTE · **Versión:** 1.1
 
 Este documento registra decisiones consolidadas. Una decisión nueva debe indicar fecha, sección afectada, referencia resultante y documentos que requieren actualización.
 
@@ -25,6 +25,8 @@ Este documento registra decisiones consolidadas. Una decisión nueva debe indica
 | D-015 | 2026-09-02 | Se aprueba el programa interior B1 con 96 estancias, planos coordinados y 36 escenas tipológicas. | Los códigos B1-PB, B1-P1 y B1-P2 pasan a ser la referencia única para cambios interiores. |
 | D-016 | 2026-09-02 | SUPERADA: se propusieron patios interiores B2 y B3 de 20 × 20 m. | Sustituida por D-017; v57 y v58 quedan obsoletas. |
 | D-017 | 2026-09-03 | Se corrige la dimensión de los patios interiores B2 y B3 a 30 × 30 m. | D-016 queda superada; las vistas v59, el panel v60 y los tres planos v49 incorporan la medida definitiva. |
+| D-018 | 2026-09-07 | Los claustros B2 y B3 adoptan vegetación mediterránea abundante y pavimento de adoquines de piedra natural. | v62 es la referencia vigente de vegetación y pavimento; v61 queda como auxiliar; el catálogo v59 y el panel v60 pasan a pendientes. |
+| D-019 | 2026-09-07 | Se publica el repositorio como versión 1.0.0 bajo licencia CC BY-NC-SA 4.0. | Uso exclusivamente no comercial; los cambios posteriores se registran en `CHANGELOG.md`. |
 
 ## Contradicciones resueltas
 
@@ -43,10 +45,12 @@ Este documento registra decisiones consolidadas. Una decisión nueva debe indica
 
 ## Última validación
 
-**Fecha:** 2026-09-03  
+**Fecha:** 2026-09-07  
 **Resultado:** APROBADA
 
-- 14 documentos modulares presentes, incluidos el mapa maestro y los dos documentos específicos del programa interior.
+- 15 documentos presentes, incluidos el mapa maestro, los dos documentos específicos del programa interior y la ficha de claustros v61/v62.
+- `validar_b1.mjs` aprueba con 269 comprobaciones correctas y sin errores.
+- Las imágenes v61 y v62 figuran en el registro con su estado; el catálogo v59 y el panel v60 quedan marcados como pendientes.
 - Todos los módulos operativos contienen lista de aceptación.
 - Todos los enlaces internos y referencias gráficas son válidos.
 - Las reglas críticas aparecen en la documentación activa.

@@ -1,6 +1,8 @@
-# Claustros B2 y B3 — vegetación v61
+# Claustros B2 y B3 — vegetación v61 y adoquines v62
 
-Estado: referencia auxiliar de vegetación. La imagen vigente combina esta vegetación con caminos adoquinados: [v62](../imagenes/edificio-principal/interiores/claustros-b2-b3-vegetacion-adoquines-v62.png). Los paneles anteriores están pendientes de incorporar v62.
+**Estado:** VIGENTE · **Versión:** 1.0 · **Fecha:** 2026-09-07 · **Decisión:** D-018
+
+v61 es una referencia auxiliar de vegetación. La imagen vigente combina esta vegetación con caminos adoquinados: [v62](../imagenes/edificio-principal/interiores/claustros-b2-b3-vegetacion-adoquines-v62.png). Los paneles anteriores están pendientes de incorporar v62.
 
 [Vista de ambos claustros](../imagenes/edificio-principal/interiores/claustros-b2-b3-vegetacion-v61.png)
 
