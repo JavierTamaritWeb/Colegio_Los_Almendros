@@ -1,6 +1,6 @@
 # Parque, juegos infantiles y jardines
 
-**Estado:** VIGENTE · **Versión:** 1.0
+**Estado:** VIGENTE · **Versión:** 1.2 · **Fecha:** 2026-09-08
 
 ## Parque infantil
 
@@ -10,6 +10,8 @@
 - Está completamente separado de coches y autobuses.
 
 ## Parque de estancia y descanso
+
+- Nueva directriz de plantación E2 (D-025): hilera axial norte-sur de datileras adultas, césped en toda superficie ajardinada y grupos de palmitos/palmeras enanas. Propuesta y límites de verificación: [E2 v69](E2_V69_JARDIN_DATILERAS.md). Esta petición sustituye la composición vegetal anterior, no el trazado ni los bancos.
 
 - Sustituye la antigua piscina situada junto al monasterio.
 - Tiene exactamente tres caminos: dos largos sinuosos de sur a norte y un conector corto al norte desde el camino oriental hasta los juegos.
@@ -26,21 +28,23 @@
 - Alzado sur: juegos infantiles al fondo y cafetería detrás.
 - Perfil este: edificio principal continuo al oeste; sin bloques perpendiculares, torre terminal ni camino central inventado.
 - Planta, alzado y perfil reproducen los mismos caminos, bancos y vegetación.
+- Estado actual: las vistas ortogonales anteriores (planta v29, alzado v28, perfil v31) fueron retiradas del proyecto (D-029). El trazado y los 14 bancos se rigen por el texto de este módulo hasta que exista una planta ortogonal nueva. v69, v70 y v71 son conceptuales con perspectiva residual y no sustituyen a planta, alzado ni perfil.
 
 ## Jardín mediterráneo posterior
 
+- D1 se transforma por petición del usuario en huerto mediterráneo (D-026): olivos, clementinos, limoneros, kumquats, parras de Malvasía para sombra, arcadas de jazmín, maría luisa y bancales de aromáticas. Implantación vigente: [v74](D1_V74_PARRAS.md); vistas de ambiente: [v75](D1_V75_CUATRO_VISTAS.md). Este programa vegetal prevalece sobre la lista anterior de especies; se conservan límites y accesos.
+
 - Situado al norte del edificio principal y rodeado por un seto continuo de murta de 1 m.
 - El seto cierra los cuatro lados y solo se abre donde lo atraviesan caminos definidos.
-- Especies: almendro, algarrobo, olivo, laurel, geranios, romero, lavanda, hierbabuena, Malvasía, boca de dragón y caléndula.
+- Especies anteriores (superadas por D-026, se conservan como referencia histórica): almendro, algarrobo, olivo, laurel, geranios, romero, lavanda, hierbabuena, Malvasía, boca de dragón y caléndula.
 - Caminos permeables, piedra cálida, bancos y pérgolas con parras de Malvasía.
-- No se utilizan especies tropicales.
+- No se utilizan especies tropicales en D1 (regla propia de esta zona; la plantación de los claustros B2 y B3 se rige por D-030).
 
 ## Referencias autorizadas
 
-- [Planta del parque](../imagenes/parque-principal/parque-bancos-planta-v29.png)
-- [Alzado sur](../imagenes/parque-principal/parque-bancos-alzado-sur-v28.png)
-- [Perfil este](../imagenes/parque-principal/parque-bancos-perfil-este-v31.png)
-- [Detalle del seto de murta](../imagenes/jardín/jardin-exterior/detalle-seto-murta-completo-v21.png)
+- [Composición vegetal de E2 v69](../imagenes/jardín/parque-principal/e2-jardin-datileras-v69.png) (conceptual; trazado y bancos según el texto de este módulo)
+- [Huerto mediterráneo D1 v74](../imagenes/jardín/jardin-exterior/d1-parras-protagonistas-v74.png) (conceptual; incluye el seto de murta perimetral)
+- Retiradas por D-029: planta v29, alzado v28, perfil v31 del parque y detalle del seto de murta v21.
 
 ## Lista de aceptación
 
@@ -49,4 +53,3 @@
 - [ ] Correspondencia uno a uno entre planta, alzado y perfil.
 - [ ] Juegos parcialmente cubiertos y separados del tráfico.
 - [ ] Murta continua de 1 m alrededor de todo el jardín posterior.
-

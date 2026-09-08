@@ -1,8 +1,8 @@
 # Mapa maestro de zonas
 
 **Estado:** VIGENTE  
-**Versión:** 1.0  
-**Fecha:** 2026-09-02
+**Versión:** 1.1  
+**Fecha:** 2026-09-08
 
 ## Finalidad
 
@@ -43,7 +43,7 @@ Este documento establece los nombres y códigos oficiales de las zonas del Coleg
 
 | Código | Nombre oficial | Alcance |
 |---|---|---|
-| D1 | Jardín mediterráneo posterior | Jardín al norte de B3, especies mediterráneas y seto de murta |
+| D1 | Jardín mediterráneo posterior | Huerto mediterráneo al norte de B3 (frutales, parras, aromáticas, D-026) y seto de murta |
 | D2 | Centro acuático y piscinas | Piscina olímpica, piscina de iniciación y cubierta retráctil |
 | D3 | Pabellón de fútbol sala | Pabellón cerrado y completamente cubierto |
 | D4 | Pabellón de voleibol | Pabellón cerrado y completamente cubierto |

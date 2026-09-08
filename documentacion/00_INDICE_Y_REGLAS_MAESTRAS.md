@@ -1,8 +1,8 @@
 # Colegio Los Almendros — índice y reglas maestras
 
 **Estado:** VIGENTE  
-**Versión:** 1.1  
-**Fecha:** 2026-09-07
+**Versión:** 1.2  
+**Fecha:** 2026-09-08
 
 ## Finalidad
 
@@ -35,7 +35,25 @@ Una imagen `AUXILIAR`, `PENDIENTE` u `OBSOLETA` nunca puede sustituir a una refe
 - [09_VISTAS_PANELES_Y_REFERENCIAS.md](09_VISTAS_PANELES_Y_REFERENCIAS.md)
 - [10_CAMBIOS_Y_DECISIONES.md](10_CAMBIOS_Y_DECISIONES.md)
 - [11_MAPA_MAESTRO_DE_ZONAS.md](11_MAPA_MAESTRO_DE_ZONAS.md)
-- [CLAUSTROS_V61_VEGETACION.md](CLAUSTROS_V61_VEGETACION.md) (ficha de las ediciones v61 y v62 de los claustros)
+
+## Fichas de versión
+
+Cada ficha documenta una edición concreta de imagen (prompt, modo, límites de uso). Una ficha no sustituye al módulo de su zona: si describe un cambio de diseño, ese cambio debe estar en `10_CAMBIOS_Y_DECISIONES.md` y en el módulo. Toda ficha nueva se enlaza aquí; `validar_b1.mjs` comprueba que ningún `.md` de esta carpeta queda fuera del índice.
+
+Claustros B2 y B3 (las fichas v61–v67 fueron retiradas por D-029):
+
+- [CLAUSTROS_V68_PLANTACION.md](CLAUSTROS_V68_PLANTACION.md) — plantación tropical ratificada (D-024, D-030)
+
+E2 — Parque de estancia y descanso:
+
+- [E2_V69_JARDIN_DATILERAS.md](E2_V69_JARDIN_DATILERAS.md) — datileras, césped y palmitos (D-025)
+- [E2_V70_VISTA_FRONTAL.md](E2_V70_VISTA_FRONTAL.md) — vista conceptual hacia el norte
+- [E2_V71_PERFIL.md](E2_V71_PERFIL.md) — vista lateral conceptual desde el este
+
+D1 — Huerto mediterráneo posterior (las fichas v72 y v73 fueron retiradas por D-029):
+
+- [D1_V74_PARRAS.md](D1_V74_PARRAS.md) — implantación vigente con pérgolas ampliadas (D-026)
+- [D1_V75_CUATRO_VISTAS.md](D1_V75_CUATRO_VISTAS.md) — cuatro vistas de ambiente
 
 ## Masterplan fijo
 
@@ -61,6 +79,14 @@ Norte está arriba y sur abajo en todas las plantas. La secuencia oeste-este es 
 - Una vista denominada planta es ortogonal, cenital a 90°, sin fachadas ni perspectiva.
 - Ninguna imagen nueva puede introducir edificios, caminos, pistas, árboles o equipamientos no definidos.
 
+## Reglas de conservación del repositorio
+
+- Ningún archivo de `imagenes/` o `planos/` se sobrescribe: una versión superada cambia de estado en `09`, pero se conserva. Solo se retira un archivo por decisión expresa del usuario registrada en `10`, eliminando en el mismo cambio su fila en `09`, su ficha y todos los enlaces que lo citan.
+- Toda imagen o plano tiene una fila en el registro de `09`, incluidas las fuentes sin rotular.
+- Las carpetas se mueven con `git mv`, nunca borrando y copiando a mano.
+- Las rutas de los enlaces se escriben en Unicode NFC (la forma que guarda git); no se mezclan formas.
+- `node herramientas/validar_b1.mjs` debe terminar sin errores antes de dar por cerrado cualquier cambio.
+
 ## Flujo obligatorio para una modificación
 
 1. Identificar la sección afectada.
@@ -71,7 +97,9 @@ Norte está arriba y sur abajo en todas las plantas. La secuencia oeste-este es 
 5. Generar o editar sin alterar las otras secciones.
 6. Comprobar la lista de aceptación del módulo.
 7. Registrar la decisión en `10_CAMBIOS_Y_DECISIONES.md` si modifica el diseño.
-8. Actualizar el estado de las imágenes afectadas en `09_VISTAS_PANELES_Y_REFERENCIAS.md`.
+8. Actualizar el estado de las imágenes afectadas en `09_VISTAS_PANELES_Y_REFERENCIAS.md` y registrar cada imagen nueva.
+9. Si se crea una ficha de versión, enlazarla en este índice.
+10. Ejecutar `node herramientas/validar_b1.mjs`.
 
 ## Comprobación global
 
@@ -81,3 +109,5 @@ Norte está arriba y sur abajo en todas las plantas. La secuencia oeste-este es 
 - [ ] No hay elementos duplicados ni inventados.
 - [ ] El recinto completo y la terminal de autobuses caben en la vista general.
 - [ ] Las referencias empleadas están declaradas como vigentes o auxiliares.
+- [ ] Todas las imágenes nuevas están registradas y las fichas nuevas enlazadas en este índice.
+- [ ] El validador termina sin errores.

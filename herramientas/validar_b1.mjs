@@ -48,14 +48,98 @@ for(const rel of artifacts){
 }
 
 const docDir=path.join(root,'documentacion');
-for(const name of fs.readdirSync(docDir).filter(n=>n.endsWith('.md'))){
-  const file=path.join(docDir,name),text=fs.readFileSync(file,'utf8');
-  for(const m of text.matchAll(/\[[^\]]+\]\(([^)]+)\)/g)){
-    const target=m[1];
-    if(target.startsWith('http')||target.startsWith('#')) continue;
-    must(fs.existsSync(path.resolve(docDir,decodeURI(target))),`${name}: enlace válido ${target}`);
+const docNames=fs.readdirSync(docDir).filter(n=>n.endsWith('.md'));
+const linkPattern=/\[[^\]]*\]\(([^)\s]+)\)|(?:src|href)="([^"]+)"/g;
+const isExternal=t=>/^(https?:|mailto:|#)/.test(t);
+
+// Enlaces: existen y están escritos en NFC (la forma que guarda git); un enlace NFD rompe en Linux/GitHub.
+const checkLinks=(file,baseDir)=>{
+  const name=path.basename(file),text=fs.readFileSync(file,'utf8');
+  for(const m of text.matchAll(linkPattern)){
+    const target=m[1]??m[2];
+    if(isExternal(target)) continue;
+    const decoded=decodeURI(target);
+    const exists=fs.existsSync(path.resolve(baseDir,decoded));
+    const nfc=decoded.normalize('NFC')===decoded;
+    must(exists,`${name}: enlace válido ${target}`);
+    if(exists) must(nfc,`${name}: enlace en Unicode NFC ${target}`);
   }
+};
+for(const name of docNames) checkLinks(path.join(docDir,name),docDir);
+for(const name of ['README.md','CLAUDE.md','CHANGELOG.md']) checkLinks(path.join(root,name),root);
+
+// Índice: todo documento de documentacion/ está enlazado desde 00.
+const indexText=fs.readFileSync(path.join(docDir,'00_INDICE_Y_REGLAS_MAESTRAS.md'),'utf8');
+for(const name of docNames){
+  if(name==='00_INDICE_Y_REGLAS_MAESTRAS.md') continue;
+  must(indexText.includes(`](${name})`),`00_INDICE: enlaza ${name}`);
 }
+
+// Registro: toda imagen o plano del repositorio tiene fila en 09 y ningún archivo registrado falta en disco.
+const walk=dir=>fs.readdirSync(dir,{withFileTypes:true}).flatMap(e=>{
+  if(e.name.startsWith('.')) return [];
+  const p=path.join(dir,e.name);
+  return e.isDirectory()?walk(p):[p];
+});
+const assets=[...walk(path.join(root,'imagenes')),...walk(path.join(root,'planos'))]
+  .filter(p=>/\.(png|jpe?g|svg|webp)$/i.test(p))
+  .map(p=>path.relative(root,p).normalize('NFC'));
+const registerText=fs.readFileSync(path.join(docDir,'09_VISTAS_PANELES_Y_REFERENCIAS.md'),'utf8');
+const registerRows=registerText.split('\n').filter(l=>/^\| \[/.test(l));
+const registered=new Set();
+for(const row of registerRows){
+  const state=row.split('|')[2]?.trim();
+  must(['VIGENTE','AUXILIAR','PENDIENTE','OBSOLETA'].includes(state),`09: estado válido en fila «${row.slice(0,60)}…»`);
+  for(const m of row.matchAll(/\]\(\.\.\/([^)]+)\)/g)) registered.add(decodeURI(m[1]).normalize('NFC'));
+}
+for(const rel of assets) must(registered.has(rel),`09: registra ${rel}`);
+for(const rel of registered) must(fs.existsSync(path.join(root,rel)),`09: el archivo registrado existe ${rel}`);
+
+// Versiones: sufijos -vNN sin huecos declarados en README.
+const versions=assets.map(a=>a.match(/-v(\d+)(?:[-.]|$)/)?.[1]).filter(Boolean).map(Number);
+const maxVersion=Math.max(...versions);
+const readme=fs.readFileSync(path.join(root,'README.md'),'utf8');
+const badge=readme.match(/referencias-v(\d+)-/)?.[1];
+must(Number(badge)===maxVersion,`README: la insignia de referencias declara v${badge} y la versión máxima en disco es v${maxVersion}`);
+must(fs.readFileSync(path.join(root,'CLAUDE.md'),'utf8').includes(`\`v${maxVersion}\` is the latest`),`CLAUDE.md: declara v${maxVersion} como última versión`);
+
+// Decisiones: IDs consecutivos y sin repetir en 10.
+const decisions=[...fs.readFileSync(path.join(docDir,'10_CAMBIOS_Y_DECISIONES.md'),'utf8').matchAll(/^\| D-(\d{3}) \|/gm)].map(m=>Number(m[1]));
+must(decisions.length>0&&decisions.every((d,i)=>d===i+1),`10: ${decisions.length} decisiones con IDs consecutivos D-001..D-${String(decisions.length).padStart(3,'0')}`);
+
+// Textos: ninguna secuencia NFD en los documentos.
+const rootDocs=['README.md','CLAUDE.md','CHANGELOG.md'].map(n=>path.join(root,n));
+const allDocs=[...docNames.map(n=>path.join(docDir,n)),...rootDocs];
+for(const file of allDocs){
+  const text=fs.readFileSync(file,'utf8');
+  must(text.normalize('NFC')===text,`${path.basename(file)}: texto en Unicode NFC`);
+}
+
+// Citas D-NNN: toda decisión citada existe.
+for(const file of allDocs){
+  const cited=new Set([...fs.readFileSync(file,'utf8').matchAll(/D-(\d{3})/g)].map(m=>Number(m[1])));
+  for(const d of cited) must(d>=1&&d<=decisions.length,`${path.basename(file)}: cita D-${String(d).padStart(3,'0')} existe`);
+}
+
+// Fichas de versión: declaran estado, zona y decisión.
+for(const name of docNames.filter(n=>!/^\d/.test(n))){
+  const text=fs.readFileSync(path.join(docDir,name),'utf8');
+  must(/\*\*Estado[^*]*\*\*/.test(text)&&text.includes('**Zona:**')&&/\*\*Decisi(ó|o)n(es)?:\*\*/.test(text),`${name}: cabecera con Estado, Zona y Decisión`);
+}
+
+// README: contadores manuales coherentes con 10 y CHANGELOG.
+const readmeDecisions=readme.match(/\*\*(\d+) decisiones consolidadas\*\* \(`D-001` a `D-(\d{3})`\)/);
+must(readmeDecisions&&Number(readmeDecisions[1])===decisions.length&&Number(readmeDecisions[2])===decisions.length,`README: declara ${decisions.length} decisiones (D-001 a D-${String(decisions.length).padStart(3,'0')})`);
+const changelog=fs.readFileSync(path.join(root,'CHANGELOG.md'),'utf8');
+const released=changelog.match(/^## \[(\d+\.\d+\.\d+)\] - \d{4}-\d{2}-\d{2}/m)?.[1];
+const readmeVersion=readme.match(/versi%C3%B3n-(\d+\.\d+\.\d+)-/)?.[1];
+must(released&&released===readmeVersion,`README: insignia de versión ${readmeVersion} coincide con la última publicada en CHANGELOG (${released})`);
+must(released&&changelog.includes(`\n[${released}]: `),`CHANGELOG: enlace de comparación para [${released}]`);
+must(readme.includes(`**Versión ${released}**`),`README: «Estado del proyecto» cita la versión ${released}`);
+
+// Última comprobación: el contador publicado en README coincide con el total real (incluida esta línea).
+const readmeCount=Number(readme.match(/VALIDACIONES CORRECTAS: (\d+)/)?.[1]);
+must(readmeCount===ok.length+1,`README: contador del validador ${readmeCount} (esperado ${ok.length+1})`);
 
 console.log(`VALIDACIONES CORRECTAS: ${ok.length}`);
 if(errors.length){

@@ -1,6 +1,6 @@
 # Edificio principal y claustros
 
-**Estado:** VIGENTE · **Versión:** 1.1
+**Estado:** VIGENTE · **Versión:** 1.3 · **Fecha:** 2026-09-08
 
 ## Alcance
 
@@ -39,9 +39,12 @@ El programa, la distribución y la numeración interiores se definen en [01A_PRO
 
 - Ambos están abiertos al cielo.
 - El jardín interior de cada claustro es un cuadrado de `30 × 30 m`.
-- Los caminos y zonas de paso se pavimentan con adoquines de piedra natural, de superficie regular y juntas estrechas. Referencia visual más reciente: [claustros con vegetación y adoquines v62](../imagenes/edificio-principal/interiores/claustros-b2-b3-vegetacion-adoquines-v62.png).
+- Los caminos forman dos ejes adoquinados perpendiculares, norte-sur y este-oeste, que conectan con las cuatro galerías y delimitan cuatro parterres (D-022). Se pavimentan con adoquines de piedra natural, de superficie regular y juntas estrechas (D-018).
+- Pieza central: pozo de piedra con arco de forja y cierre metálico en B2 (claustro sur); fuente de piedra en B3 (claustro norte) (D-021).
+- Un reloj de sol vertical por claustro, en la cara sur de su ala norte, sobre el arco central y sin tapar ventanas (D-020). Su calibración requiere comprobación técnica.
+- Referencias visuales: [plantación, cruce, pozo, fuente y relojes v68](../imagenes/edificio-principal/interiores/claustros-monsteras-ficus-v68.png) y [rotulación de dimensiones v59](../imagenes/edificio-principal/interiores/claustros-b2-b3-30x30-rotulado-v59.png). Las ediciones v61–v67 fueron retiradas del proyecto (D-029).
 - Galerías porticadas históricas continuas en sus cuatro lados.
-- Jardines formales mediterráneos con grava, setos bajos, aromáticas, pequeños cítricos y una pieza central.
+- Plantación de porte tropical ratificada por D-030: monsteras, aves del paraíso y ficus formados como pequeños árboles de un tronco, en los cuatro parterres, con borde bajo verde y sin ocultar fachadas ni caminos. Propuesta visual: especies, microclima, heladas, raíces y mantenimiento requieren comprobación hortícola antes de plantar. La regla mediterránea anterior (D-018) queda superada en este punto.
 - Prohibidos techos de vidrio, invernaderos, galerías contemporáneas acristaladas y cerramientos de acero visibles.
 
 ## Referencias autorizadas
@@ -66,3 +69,4 @@ El programa, la distribución y la numeración interiores se definen en [01A_PRO
 - [ ] Se ven exactamente dos claustros consecutivos.
 - [ ] Las ventanas de las tres plantas tienen remate de medio punto y cristal.
 - [ ] Los tres piñones responden al croquis y no sobresalen de la cubierta.
+- [ ] Cada claustro muestra el cruce adoquinado, su pieza central (pozo en B2, fuente en B3), su reloj de sol y la plantación de v68.

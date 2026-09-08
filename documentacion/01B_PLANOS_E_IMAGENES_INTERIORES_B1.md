@@ -1,8 +1,8 @@
 # Planos y catálogo de imágenes interiores B1
 
 **Estado:** VIGENTE  
-**Versión:** 1.2  
-**Fecha:** 2026-09-07
+**Versión:** 1.3  
+**Fecha:** 2026-09-08
 
 ## Autoridad documental
 
@@ -27,7 +27,7 @@ Los SVG editables se conservan junto a sus PNG. Norte está arriba, sur abajo y 
 - [Planta segunda](../imagenes/edificio-principal/interiores/catalogo-interiores-planta-segunda-v52.png): Secundaria, Bachillerato, Biología, Física y Química, STEM e informática.
 - [Espacios comunes](../imagenes/edificio-principal/interiores/catalogo-interiores-espacios-comunes-v53.png): profesores, apoyo, galería, núcleos y aseos.
 - [Claustros B2 y B3 a 30 × 30 m](../imagenes/edificio-principal/interiores/claustros-b2-b3-30x30-rotulado-v59.png): comparación específica de ambos patios cuadrados y rotulación de dimensiones.
-- [Claustros B2 y B3 con vegetación y adoquines](../imagenes/edificio-principal/interiores/claustros-b2-b3-vegetacion-adoquines-v62.png): referencia vigente de vegetación mediterránea, parterres y pavimento de piedra natural (ver [CLAUSTROS_V61_VEGETACION.md](CLAUSTROS_V61_VEGETACION.md)).
+- [Claustros B2 y B3 con plantación, cruce, pozo, fuente y relojes](../imagenes/edificio-principal/interiores/claustros-monsteras-ficus-v68.png): referencia vigente de plantación (D-030) y de los elementos de D-020 a D-022 (ver [CLAUSTROS_V68_PLANTACION.md](CLAUSTROS_V68_PLANTACION.md)). Las ediciones v61–v67 fueron retiradas (D-029).
 - [Patrimonio y bienestar](../imagenes/edificio-principal/interiores/catalogo-interiores-patrimonio-bienestar-v59.png): B2, B3, psicomotricidad, calma, proyectos y familias.
 - [Administración y servicios](../imagenes/edificio-principal/interiores/catalogo-interiores-apoyo-servicios-v55.png): administración, mediateca, estudio, departamentos, cocina y preparación.
 - [Panel conjunto de las 36 escenas](../imagenes/edificio-principal/panel-programa-interior-b1-v60.png).

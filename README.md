@@ -4,9 +4,9 @@
 
 **Anteproyecto conceptual de un colegio privado en un monasterio valenciano del siglo XVII rehabilitado**
 
-![Versión](https://img.shields.io/badge/versi%C3%B3n-1.0.0-1F6FEB?style=flat-square)
+![Versión](https://img.shields.io/badge/versi%C3%B3n-2.0.0-1F6FEB?style=flat-square)
 ![Estado](https://img.shields.io/badge/estado-anteproyecto%20conceptual-2E7D32?style=flat-square)
-![Versión de referencias](https://img.shields.io/badge/referencias-v62-173344?style=flat-square)
+![Versión de referencias](https://img.shields.io/badge/referencias-v75-173344?style=flat-square)
 ![Validación B1](https://img.shields.io/badge/validaci%C3%B3n%20B1-aprobada-B88A38?style=flat-square)
 ![Idioma](https://img.shields.io/badge/documentaci%C3%B3n-espa%C3%B1ol-C62828?style=flat-square)
 ![Licencia](https://img.shields.io/badge/licencia-CC%20BY--NC--SA%204.0-555555?style=flat-square)
@@ -30,7 +30,7 @@ Todo el conjunto se rige por un sistema documental que garantiza la coherencia e
 | Principio | Concreción |
 |---|---|
 | **Respeto patrimonial** | Fachadas de piedra caliza restaurada, arquerías de medio punto tipo *riurau*, cubiertas de teja vidriada verde bosque y tres piñones integrados en la cubierta. |
-| **Dos claustros** | El edificio principal envuelve dos claustros consecutivos de 30 × 30 m alineados en el eje norte-sur, convertidos en jardines mediterráneos. |
+| **Dos claustros** | El edificio principal envuelve dos claustros consecutivos de 30 × 30 m alineados en el eje norte-sur, con caminos adoquinados en cruz, pozo en B2, fuente en B3, relojes de sol y una plantación de porte tropical (monsteras, aves del paraíso y ficus). |
 | **Masterplan fijo** | Secuencia oeste-este invariable: deporte, monasterio, parque y administración, complejo acuático, aparcamiento y terminal de autobuses. |
 | **Paisaje valenciano** | Naranjales productivos fuera del recinto, almendros en flor flanqueando la avenida de acceso y una alameda de plátanos de sombra. |
 | **Cerramiento continuo** | Muro de piedra y verja de forja en todo el perímetro, con la cancela monumental y su escudo calado como pieza de referencia. |
@@ -76,9 +76,9 @@ El interior se ha organizado en un programa de **96 estancias** repartidas en tr
 | Segunda | `B1-P2` | Secundaria, Bachillerato, laboratorios, informática y departamentos | 32 |
 
 <div align="center">
-<img src="imagenes/edificio-principal/interiores/claustros-b2-b3-vegetacion-adoquines-v62.png" alt="Claustros B2 y B3 con vegetación mediterránea" width="100%">
+<img src="imagenes/edificio-principal/interiores/claustros-monsteras-ficus-v68.png" alt="Claustros B2 y B3 con plantación tropical, cruce adoquinado, pozo, fuente y relojes de sol" width="100%">
 
-*Claustros B2 y B3 v62: patios de 30 × 30 m con fuentes, parterres, almendros, olivos y adoquines de piedra natural.*
+*Claustros B2 y B3 v68: patios de 30 × 30 m con cruce adoquinado, pozo en B2, fuente en B3, relojes de sol y plantación de monsteras, aves del paraíso y ficus (D-030).*
 </div>
 
 Planos vigentes: [planta baja](planos/b1-planta-baja-v49.png) · [planta primera](planos/b1-planta-primera-v49.png) · [planta segunda](planos/b1-planta-segunda-v49.png) · [lámina de las tres plantas](planos/b1-programa-tres-plantas-v49.png).
@@ -109,7 +109,9 @@ La documentación sigue una jerarquía estricta. En caso de contradicción, mand
 4. Las imágenes marcadas como `VIGENTE`.
 5. El prompt histórico, solo para recuperar contexto no contradictorio.
 
-Cada imagen del registro tiene un estado: `VIGENTE`, `AUXILIAR`, `PENDIENTE` u `OBSOLETA`. Una versión nueva nunca sobrescribe a la anterior: se añade con un sufijo `-vNN` superior y la antigua pasa a `OBSOLETA`.
+Cada imagen del registro tiene un estado: `VIGENTE`, `AUXILIAR`, `PENDIENTE` u `OBSOLETA`. Una versión nueva nunca sobrescribe a la anterior: se añade con un sufijo `-vNN` superior y la antigua pasa a `OBSOLETA`. Un archivo solo se retira por decisión registrada en `10`, eliminando a la vez su fila, su ficha y sus enlaces; toda imagen o plano presente tiene su fila en el registro y el validador comprueba ambas cosas.
+
+Las ediciones concretas de imagen (prompt, modo, límites de uso) se documentan en fichas de versión (`CLAUSTROS_V6x`, `E2_V6x`, `D1_V7x`) enlazadas desde el índice maestro.
 
 ---
 
@@ -118,8 +120,10 @@ Cada imagen del registro tiene un estado: `VIGENTE`, `AUXILIAR`, `PENDIENTE` u `
 Los scripts son módulos ES ejecutados con Node 22 y requieren ImageMagick 7 (`magick`). Se lanzan siempre desde la raíz del repositorio.
 
 ```bash
-# Valida el programa interior B1: 96 códigos únicos, planos coherentes,
-# artefactos presentes y todos los enlaces de la documentación válidos
+# Valida el proyecto: 96 códigos únicos y planos coherentes, artefactos presentes,
+# todos los enlaces (documentación y raíz) válidos y en Unicode NFC, registro de
+# imágenes completo, índice completo, IDs de decisión consecutivos y versión máxima
+# coherente con este README y CLAUDE.md
 node herramientas/validar_b1.mjs
 
 # Regenera los tres planos SVG de B1 a partir de la tabla de estancias
@@ -135,7 +139,7 @@ node herramientas/actualizar_claustros_30m.mjs
 Resultado actual del validador:
 
 ```
-VALIDACIONES CORRECTAS: 269
+VALIDACIONES CORRECTAS: 795
 RESULTADO B1: APROBADO A NIVEL DE ANTEPROYECTO CONCEPTUAL
 ```
 
@@ -150,15 +154,15 @@ RESULTADO B1: APROBADO A NIVEL DE ANTEPROYECTO CONCEPTUAL
 5. Generar o editar sin alterar el resto de zonas.
 6. Comprobar la lista de aceptación del módulo.
 7. Registrar la decisión con un nuevo ID `D-NNN` en el registro de cambios.
-8. Actualizar el estado de las imágenes afectadas y ejecutar el validador.
+8. Registrar cada imagen nueva en `09` con su estado, enlazar la ficha de versión desde el índice y ejecutar el validador.
 
 ---
 
 ## Estado del proyecto
 
-- **Versión 1.0.0**, primera publicación del anteproyecto. Historial en [`CHANGELOG.md`](CHANGELOG.md).
-- **19 decisiones consolidadas** (`D-001` a `D-019`); la D-018 fija la vegetación y los adoquines de los claustros.
-- **Referencias visuales hasta v62**, con panel exterior de ocho miniaturas y panel interior de 36 escenas.
+- **Versión 2.0.0**: retirada de referencias antes vigentes y nueva regla de plantación de los claustros. Historial en [`CHANGELOG.md`](CHANGELOG.md).
+- **31 decisiones consolidadas** (`D-001` a `D-031`); D-020 a D-023 fijan relojes de sol, pozo, cruce adoquinado e iluminación de los claustros; D-025 y D-026 redefinen la vegetación de E2 y D1; D-029 retira del proyecto las ediciones v61–v67, v72, v73 y las vistas antiguas del parque; D-030 ratifica la plantación tropical de los claustros.
+- **Referencias visuales hasta v75**, con panel exterior de ocho miniaturas, panel interior de 36 escenas, E2 v69–v71 y huerto D1 v74–v75.
 - **Anteproyecto conceptual**: las superficies y distribuciones son preliminares y deberán ajustarse tras un levantamiento métrico y estructural del edificio, así como al cumplimiento de la normativa educativa, de incendios y de accesibilidad.
 
 ---

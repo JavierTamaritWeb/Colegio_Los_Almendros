@@ -1,0 +1,13 @@
+# E2 — perfil este v71
+
+**Estado de la imagen:** AUXILIAR · **Fecha:** 2026-09-07 · **Zona:** E2 · **Decisión:** D-025 · **Base:** v69 y v31 (v31 retirada por D-029)
+
+[Imagen](../imagenes/jardín/parque-principal/e2-perfil-este-v71.png)
+
+Vista lateral conceptual desde el este mirando al oeste; sur a la izquierda y norte a la derecha. Siete datileras visibles, césped y palmitos, edificio principal de tres plantas detrás y juegos al norte. La imagen presenta perspectiva residual y no es un perfil ortogonal métrico. No certifica coincidencia exacta de posiciones y orientación de bancos; v69 sigue como referencia de implantación.
+
+Modo: generador integrado, usando v69 para jardín y v31 para entorno (v31 retirada posteriormente por D-029). Dos correcciones posteriores para lograr siete datileras: la primera retiró dos en vez de una; la segunda restituyó la séptima.
+
+## Prompt inicial
+
+Architectural lateral PROFILE view of E2 garden from EAST looking WEST. Use image1 as authoritative garden layout/planting; image2 is the exact architectural backdrop and left-right geographic arrangement to retain, NOT old vegetation. Landscape wide aspect. SOUTH on LEFT, NORTH on RIGHT. Seven mature Phoenix dactylifera date palms in a SINGLE evenly spaced straight north-south row running LEFT TO RIGHT in this profile; seven distinct trunks with feather crowns, not two rows. Replace all tangled old vegetation of image2 with continuous neat green lawn, scattered low palmito/dwarf fan palm groups and discreet white/lavender edge flowers as image1. Preserve two long winding paths running left-right in profile plus only the short northern connector to playground at RIGHT. Exactly14 wooden black-iron benches, seven per path, alternating inner/outer sides according to image1, each faces nearest path: some show backs, others seats; do NOT orient all toward camera. Main building continuous behind garden left/center, EXACTLY THREE storeys with ground arches and TWO upper rows of glazed SEMICIRCULAR arched windows, beige stone and green roof, no tower or perpendicular wings. Playground and single-storey arched cafeteria at right/north matching image2. Existing single-lantern iron lampposts only. True orthographic side elevation if feasible, no converging perspective, do not use aerial view. All palms and complete garden fit without cutting crowns. Warm bright natural daylight, luminous cream stone, ambient-filled shadows, natural green lawn, gentle blue sky, moderate realistic contrast, not original dark image2. Preserve physical site relationship and path layout. Bottom cream label 'E2 · PERFIL ESTE' subtitle 'VISTA HACIA EL OESTE · SUR A LA IZQUIERDA · NORTE A LA DERECHA'. Render botanical and architectural realism, no new objects.
