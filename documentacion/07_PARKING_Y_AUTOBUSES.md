@@ -40,4 +40,3 @@
 - [ ] Radios de giro libres y sin fondos de saco.
 - [ ] Plataforma de pasajeros protegida y separada.
 - [ ] Todo el sistema permanece dentro de muro y verja.
-

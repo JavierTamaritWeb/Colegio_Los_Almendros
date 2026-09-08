@@ -43,4 +43,3 @@
 - [ ] Piedra beige, cubierta verde y terraza porticada.
 - [ ] Administración en el extremo sureste y coherente con la vista general.
 - [ ] Rutas técnicas y escolares separadas.
-

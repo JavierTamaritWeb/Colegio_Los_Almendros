@@ -1,8 +1,6 @@
-<div align="center">
-
 # Colegio Los Almendros
 
-**Anteproyecto conceptual de un colegio privado en un monasterio valenciano del siglo XVII rehabilitado**
+**Anteproyecto conceptual de un colegio privado en un monasterio valenciano del siglo XVII rehabilitado.**
 
 ![Versión](https://img.shields.io/badge/versi%C3%B3n-2.0.0-1F6FEB?style=flat-square)
 ![Estado](https://img.shields.io/badge/estado-anteproyecto%20conceptual-2E7D32?style=flat-square)
@@ -11,11 +9,9 @@
 ![Idioma](https://img.shields.io/badge/documentaci%C3%B3n-espa%C3%B1ol-C62828?style=flat-square)
 ![Licencia](https://img.shields.io/badge/licencia-CC%20BY--NC--SA%204.0-555555?style=flat-square)
 
-<img src="imagenes/panel-presentacion/vista-general-almendros-en-flor-v47.png" alt="Vista general del recinto con los almendros en flor" width="100%">
+![Vista general del recinto con los almendros en flor](imagenes/panel-presentacion/vista-general-almendros-en-flor-v47.png)
 
 *Vista general v47: el monasterio de dos claustros en el centro, deporte al oeste, complejo acuático al nordeste y terminal de autobuses en el extremo oriental, rodeado por naranjales valencianos.*
-
-</div>
 
 ---
 
@@ -28,7 +24,7 @@ Todo el conjunto se rige por un sistema documental que garantiza la coherencia e
 ### Principios de diseño
 
 | Principio | Concreción |
-|---|---|
+| --- | --- |
 | **Respeto patrimonial** | Fachadas de piedra caliza restaurada, arquerías de medio punto tipo *riurau*, cubiertas de teja vidriada verde bosque y tres piñones integrados en la cubierta. |
 | **Dos claustros** | El edificio principal envuelve dos claustros consecutivos de 30 × 30 m alineados en el eje norte-sur, con caminos adoquinados en cruz, pozo en B2, fuente en B3, relojes de sol y una plantación de porte tropical (monsteras, aves del paraíso y ficus). |
 | **Masterplan fijo** | Secuencia oeste-este invariable: deporte, monasterio, parque y administración, complejo acuático, aparcamiento y terminal de autobuses. |
@@ -41,12 +37,10 @@ Todo el conjunto se rige por un sistema documental que garantiza la coherencia e
 
 El campus se organiza en 22 zonas con código oficial. Estos códigos se utilizan en prompts, nombres de archivo, decisiones y conversaciones para evitar cualquier ambigüedad.
 
-<div align="center">
-<img src="imagenes/panel-presentacion/mapa-maestro-zonas-v48.png" alt="Mapa maestro de zonas v48" width="100%">
-</div>
+![Mapa maestro de zonas v48](imagenes/panel-presentacion/mapa-maestro-zonas-v48.png)
 
 | Grupo | Códigos | Contenido |
-|---|---|---|
+| --- | --- | --- |
 | **A · Acceso y paisaje** | A1 – A4 | Cancela principal, avenida ceremonial con plátanos y los dos almendrales |
 | **B · Edificio histórico** | B1 – B3 | Edificio principal, claustro sur y claustro norte |
 | **C · Deporte oeste** | C1 – C3 | Atletismo y fútbol, pistas de tenis y el único gimnasio del campus |
@@ -61,25 +55,21 @@ Detalle completo en [`documentacion/11_MAPA_MAESTRO_DE_ZONAS.md`](documentacion/
 
 ## El edificio principal B1
 
-<div align="center">
-<img src="imagenes/entrada/fachada-entrada-plataneros-v36.png" alt="Fachada sur y alameda de plátanos" width="100%">
+![Fachada sur y alameda de plátanos](imagenes/entrada/fachada-entrada-plataneros-v36.png)
 
 *Fachada sur v36: tres plantas, 19 ejes en composición 8 + 3 + 8 y un único arco de acceso.*
-</div>
 
 El interior se ha organizado en un programa de **96 estancias** repartidas en tres plantas, cada una con su plano funcional coordinado y su catálogo de imágenes de ambiente.
 
 | Planta | Código | Uso principal | Estancias |
-|---|---|---|---:|
+| --- | --- | --- | ---: |
 | Baja | `B1-PB` | Infantil, Primaria 1.º–2.º, administración, salón de actos y comedor | 36 |
 | Primera | `B1-P1` | Primaria 3.º–6.º, biblioteca, arte, música, tecnología y apoyo | 28 |
 | Segunda | `B1-P2` | Secundaria, Bachillerato, laboratorios, informática y departamentos | 32 |
 
-<div align="center">
-<img src="imagenes/edificio-principal/interiores/claustros-monsteras-ficus-v68.png" alt="Claustros B2 y B3 con plantación tropical, cruce adoquinado, pozo, fuente y relojes de sol" width="100%">
+![Claustros B2 y B3 con plantación tropical, cruce adoquinado, pozo, fuente y relojes de sol](imagenes/edificio-principal/interiores/claustros-monsteras-ficus-v68.png)
 
 *Claustros B2 y B3 v68: patios de 30 × 30 m con cruce adoquinado, pozo en B2, fuente en B3, relojes de sol y plantación de monsteras, aves del paraíso y ficus (D-030).*
-</div>
 
 Planos vigentes: [planta baja](planos/b1-planta-baja-v49.png) · [planta primera](planos/b1-planta-primera-v49.png) · [planta segunda](planos/b1-planta-segunda-v49.png) · [lámina de las tres plantas](planos/b1-programa-tres-plantas-v49.png).
 
@@ -87,7 +77,7 @@ Planos vigentes: [planta baja](planos/b1-planta-baja-v49.png) · [planta primera
 
 ## Estructura del repositorio
 
-```
+```text
 Colegio_Los_Almendros/
 ├── documentacion/        Sistema documental modular (índice, módulos por zona, decisiones, registro de imágenes)
 ├── planos/               Planos funcionales de B1 en SVG editable y PNG
@@ -138,7 +128,7 @@ node herramientas/actualizar_claustros_30m.mjs
 
 Resultado actual del validador:
 
-```
+```text
 VALIDACIONES CORRECTAS: 795
 RESULTADO B1: APROBADO A NIVEL DE ANTEPROYECTO CONCEPTUAL
 ```
@@ -175,8 +165,4 @@ Se publica bajo la licencia [Creative Commons Atribución-NoComercial-CompartirI
 
 ---
 
-<div align="center">
-
 Proyecto de **Javier Tamarit** · Imágenes y planos generados con herramientas de inteligencia artificial y ensamblados con ImageMagick
-
-</div>

@@ -7,7 +7,7 @@ Este documento registra decisiones consolidadas. Una decisión nueva debe indica
 ## Decisiones vigentes
 
 | ID | Fecha | Decisión | Consecuencia documental |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | D-001 | 2026-08-30 | El edificio principal se amplía a dos claustros consecutivos. | Prohibida cualquier vuelta al volumen de un claustro. |
 | D-002 | 2026-08-30 | Fútbol sala y voleibol pasan a pabellones cerrados y cubiertos. | Las pistas no son visibles desde el exterior cenital. |
 | D-003 | 2026-08-30 | El gimnasio es único y se traslada al norte de las pistas de tenis. | No existe gimnasio en el complejo nordeste. |
@@ -73,6 +73,7 @@ Errores detectados y regla que los evita en adelante:
 11. **Contadores escritos a mano en `README.md`** (número de decisiones, comprobaciones del validador, versión publicada) sin ninguna comprobación. Regla: el validador compara esos tres valores con `10`, con su propio total y con el primer bloque de `CHANGELOG.md`.
 12. **Citas `D-NNN` y cabeceras de ficha sin verificar.** Regla: el validador rechaza cualquier cita a una decisión inexistente y exige que toda ficha declare Estado, Zona y Decisión.
 13. **Módulo editado sin subir versión ni fecha** (`11` tras cambiar la fila D1). Regla: cualquier edición de contenido de un módulo actualiza su cabecera de versión y fecha.
+14. **Markdown con HTML incrustado, bloques de código sin lenguaje y separadores de tabla sin espacios** (README, módulos). Regla: `.markdownlint.json` en la raíz fija el estilo (sin HTML, tablas `| --- |`, sin límite de longitud de línea); antes de cerrar un cambio, `npx markdownlint-cli2 "**/*.md"` debe dar cero incidencias.
 
 ## Procedimiento para una decisión nueva
 

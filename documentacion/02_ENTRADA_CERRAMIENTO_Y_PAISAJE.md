@@ -46,4 +46,3 @@
 - [ ] Dos parcelas interiores de almendros en flor; naranjos exteriores conservados.
 - [ ] Escudo único, pequeño, calado y compatible con la apertura de las hojas.
 - [ ] Verja continua sobre todos los tramos del muro.
-

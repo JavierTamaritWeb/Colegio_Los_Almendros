@@ -35,7 +35,7 @@ Los SVG editables se conservan junto a sus PNG. Norte está arriba, sur abajo y 
 ## Correspondencia entre códigos e imágenes
 
 | Códigos | Vista de referencia |
-|---|---|
+| --- | --- |
 | `B1-PB-001–008` | Catálogo PB y catálogo Administración y servicios |
 | `B1-PB-009–017` | Catálogo PB y catálogo Patrimonio y bienestar |
 | `B1-PB-018–022` | Catálogo PB y catálogo Espacios comunes |

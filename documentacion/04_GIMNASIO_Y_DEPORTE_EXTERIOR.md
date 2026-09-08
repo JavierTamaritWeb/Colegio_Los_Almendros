@@ -45,4 +45,3 @@
 - [ ] Atletismo contiene fútbol y exactamente cuatro torres exteriores.
 - [ ] Solo hay dos pistas de tenis, con superficies diferentes.
 - [ ] Exactamente cuatro postes de tenis, fuera de las zonas de juego.
-

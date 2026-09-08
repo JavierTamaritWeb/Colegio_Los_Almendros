@@ -5,7 +5,7 @@
 ## Familias de luminarias
 
 | Sistema | Cantidad/altura | Ubicación | Diseño |
-|---|---:|---|---|
+| --- | ---: | --- | --- |
 | Torres de atletismo y fútbol | 4 × 16 m | Cuatro esquinas exteriores de la pista | Celosía metálica y proyectores LED dirigidos al campo |
 | Postes de tenis | 4 × 9 m | Dos al norte y dos al sur de las pistas | Postes esbeltos, sin invadir espacios de seguridad |
 | Farolas históricas simples | Según posiciones aprobadas, 3 m | Caminos, jardín, parque y bordes de aparcamiento | Forja negra y exactamente un farol |
@@ -34,4 +34,3 @@
 - [ ] Farolas del parque con un solo punto de luz.
 - [ ] Farolas dobles únicamente en posiciones ceremoniales autorizadas.
 - [ ] Ninguna luminaria interfiere con circulación o seguridad.
-

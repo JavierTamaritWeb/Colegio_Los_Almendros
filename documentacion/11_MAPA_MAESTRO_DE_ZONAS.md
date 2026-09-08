@@ -17,7 +17,7 @@ Este documento establece los nombres y códigos oficiales de las zonas del Coleg
 ## A · Acceso y paisaje de entrada
 
 | Código | Nombre oficial | Alcance |
-|---|---|---|
+| --- | --- | --- |
 | A1 | Cancela principal | Puerta monumental sur, pilares y escudo calado |
 | A2 | Avenida ceremonial y plátanos | Recorrido axial entre A1 y B1, incluidas las dos hileras de plátanos |
 | A3 | Almendral oeste | Parcela de almendros en flor al oeste de A2 |
@@ -26,7 +26,7 @@ Este documento establece los nombres y códigos oficiales de las zonas del Coleg
 ## B · Edificio histórico
 
 | Código | Nombre oficial | Alcance |
-|---|---|---|
+| --- | --- | --- |
 | B1 | Edificio principal | Todas las crujías, fachada, arquerías, ventanas y cubiertas del monasterio escolar |
 | B2 | Claustro sur | Patio abierto más próximo a la entrada principal |
 | B3 | Claustro norte | Patio abierto posterior, al norte de B2 |
@@ -34,7 +34,7 @@ Este documento establece los nombres y códigos oficiales de las zonas del Coleg
 ## C · Deporte oeste
 
 | Código | Nombre oficial | Alcance |
-|---|---|---|
+| --- | --- | --- |
 | C1 | Atletismo y campo de fútbol | Pista oval, campo interior, márgenes y torres deportivas |
 | C2 | Pistas de tenis | Pista de tierra batida, pista rápida azul, vallado y postes |
 | C3 | Gimnasio | Único gimnasio del campus, al norte de C2 |
@@ -42,7 +42,7 @@ Este documento establece los nombres y códigos oficiales de las zonas del Coleg
 ## D · Complejo nordeste
 
 | Código | Nombre oficial | Alcance |
-|---|---|---|
+| --- | --- | --- |
 | D1 | Jardín mediterráneo posterior | Huerto mediterráneo al norte de B3 (frutales, parras, aromáticas, D-026) y seto de murta |
 | D2 | Centro acuático y piscinas | Piscina olímpica, piscina de iniciación y cubierta retráctil |
 | D3 | Pabellón de fútbol sala | Pabellón cerrado y completamente cubierto |
@@ -52,7 +52,7 @@ Este documento establece los nombres y códigos oficiales de las zonas del Coleg
 ## E · Estancia y servicios
 
 | Código | Nombre oficial | Alcance |
-|---|---|---|
+| --- | --- | --- |
 | E1 | Parque infantil | Juegos, pavimento de seguridad y cubiertas parciales |
 | E2 | Parque de estancia y descanso | Dos caminos largos, conector corto, vegetación y 14 bancos |
 | E3 | Administración y seguridad | Recepción, control, administración y acceso al aparcamiento |
@@ -60,14 +60,14 @@ Este documento establece los nombres y códigos oficiales de las zonas del Coleg
 ## F · Movilidad
 
 | Código | Nombre oficial | Alcance |
-|---|---|---|
+| --- | --- | --- |
 | F1 | Aparcamiento de coches | Filas de estacionamiento, calles, arbolado y recorridos peatonales |
 | F2 | Terminal de autobuses | Circuito independiente, dársenas, accesos y plataforma de pasajeros |
 
 ## G · Recinto y entorno
 
 | Código | Nombre oficial | Alcance |
-|---|---|---|
+| --- | --- | --- |
 | G1 | Cerramiento perimetral | Muro de piedra, verja de forja, pilares y accesos secundarios |
 | G2 | Naranjales exteriores | Cultivos productivos situados fuera del recinto escolar |
 
@@ -95,4 +95,3 @@ Este documento establece los nombres y códigos oficiales de las zonas del Coleg
 - [ ] No hay códigos repetidos.
 - [ ] La orientación norte-sur coincide con el masterplan.
 - [ ] La imagen base es la vista general vigente v47.
-

@@ -46,7 +46,7 @@ Comprobar antes de entregar: conservación de detalles claros y oscuros; color c
 Regla de completitud: **todo archivo de imagen o plano del repositorio debe tener una fila en esta tabla**, incluidas las fuentes sin rotular y las versiones superadas. Una versión superada cambia su estado a `OBSOLETA` o `AUXILIAR` y se conserva. Un archivo solo se retira del proyecto por decisión expresa del usuario registrada en `10`; en ese caso se eliminan a la vez el archivo, su fila, su ficha y todos sus enlaces (véase D-029). `validar_b1.mjs` comprueba que no quede ningún archivo sin fila ni ninguna fila sin archivo.
 
 | Archivo | Estado | Uso autorizado |
-|---|---|---|
+| --- | --- | --- |
 | [mapa-maestro-zonas-v48.png](../imagenes/panel-presentacion/mapa-maestro-zonas-v48.png) | VIGENTE | Nomenclatura y localización oficial de todas las zonas |
 | [vista-general-almendros-en-flor-v47.png](../imagenes/panel-presentacion/vista-general-almendros-en-flor-v47.png) | VIGENTE | Vista general y parcelas de acceso |
 | [vista-completa-complejo-tejado-fiel-v43.png](../imagenes/panel-presentacion/vista-completa-complejo-tejado-fiel-v43.png) | AUXILIAR | Masterplan previo; no usar sus parcelas de naranjos interiores |

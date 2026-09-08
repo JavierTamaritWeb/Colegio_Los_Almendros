@@ -12,6 +12,7 @@ The school estate is set within an extensive, authentic Valencian orange-growing
 
 The masterplan must always follow this fixed left-to-right sequence:
 
+<!-- markdownlint-disable-next-line MD036 -->
 **Athletics and football facilities with two rear tennis courts and the separate gymnasium directly north of the tennis courts → Historic monastery-school → Partially covered playground + green zone + administration/security building → New north-east sports complex and extensive car parking → Expanded far-east dedicated school-bus parking strip**
 
 ## Main historic school building

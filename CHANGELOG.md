@@ -6,6 +6,10 @@ Las decisiones de diseño se registran en [`documentacion/10_CAMBIOS_Y_DECISIONE
 
 ## [Sin publicar]
 
+### Corregido
+
+- Todos los `.md` pasan `markdownlint` con la configuración nueva de `.markdownlint.json`: el `README.md` sustituye el HTML por Markdown puro, los bloques de código declaran lenguaje y los separadores de tabla usan el estilo `| --- |`.
+
 ## [2.0.0] - 2026-09-08
 
 Versión mayor: se retiran del proyecto referencias que en 1.0.0 eran vigentes (D-029) y cambia la regla de plantación de los claustros (D-030), por lo que las imágenes generadas contra la documentación 1.0.0 dejan de ser compatibles.

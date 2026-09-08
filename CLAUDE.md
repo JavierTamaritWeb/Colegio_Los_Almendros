@@ -32,6 +32,7 @@ node herramientas/actualizar_claustros_30m.mjs  # crops the cloister pair v59 in
 5. `PROMPT_ARQUITECTONICO_COLEGIO.md` (root) — historical English prompt only, never the sole source for new work
 
 Key modules:
+
 - `11_MAPA_MAESTRO_DE_ZONAS.md` defines the 22 official zone codes (A1..G, e.g. `B1` main building, `B2`/`B3` south/north cloisters, `C3` gymnasium, `D2` pools). Use these codes in prompts, file names and decisions.
 - `01A_PROGRAMA_INTERIOR_B1.md` is the room schedule: codes `B1-PB-001..036`, `B1-P1-101..128`, `B1-P2-201..232`, parsed by the validator via the `| B1-XX-NNN |` table rows.
 - `01B_PLANOS_E_IMAGENES_INTERIORES_B1.md` maps room codes to plans and interior catalogue images.

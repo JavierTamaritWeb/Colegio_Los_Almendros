@@ -55,4 +55,3 @@
 - [ ] Misma geometría en las vistas de cubierta abierta y cerrada.
 - [ ] Dos pabellones completos, cerrados y cubiertos.
 - [ ] Ningún gimnasio en el nordeste.
-

@@ -12,12 +12,12 @@ Organizar el interior del edificio histórico B1 sin modificar su envolvente, su
 ## Capacidad adoptada
 
 | Etapa | Grupos | Ocupación orientativa | Total |
-|---|---:|---:|---:|
+| --- | ---: | ---: | ---: |
 | Infantil | 6 | 20 | 120 |
 | Primaria | 12 | 25 | 300 |
 | Secundaria | 8 | 30 | 240 |
 | Bachillerato | 4 | 30 | 120 |
-| **Total** | **30** |  | **780** |
+| **Total** | **30** | | **780** |
 
 Las superficies son preliminares y deberán ajustarse después de un levantamiento métrico y estructural del edificio.
 
@@ -33,7 +33,7 @@ Las superficies son preliminares y deberán ajustarse después de un levantamien
 ## Resumen de superficies
 
 | Planta | Programa útil enumerado | Estimación construida con galerías, núcleos y muros |
-|---|---:|---:|
+| --- | ---: | ---: |
 | Planta baja | 2.890 m² | 4.300–4.500 m² |
 | Planta primera | 1.872 m² | 2.700–2.950 m² |
 | Planta segunda | 1.908 m² | 2.750–3.000 m² |
@@ -44,7 +44,7 @@ La banda construida final debe verificarse sobre un levantamiento real. No se al
 ## Relaciones funcionales obligatorias
 
 | Área | Debe estar próxima a | Debe quedar separada de |
-|---|---|---|
+| --- | --- | --- |
 | Infantil | B2, psicomotricidad, aseos infantiles, calma, enfermería | Carga, cocinas, talleres y circulación pública intensa |
 | Primaria 1.º–2.º | Infantil, B2, apoyo y aseos | Laboratorios y servicios pesados |
 | Recepción y administración | Único acceso sur, familias, dirección, enfermería | Aulas de Infantil y patios docentes |
@@ -77,7 +77,7 @@ La banda construida final debe verificarse sobre un levantamiento real. No se al
 ## Planta baja
 
 | Código | Estancia | Área orientativa |
-|---|---|---:|
+| --- | --- | ---: |
 | B1-PB-001 | Vestíbulo principal | 120 m² |
 | B1-PB-002 | Recepción | 35 m² |
 | B1-PB-003 | Secretaría | 40 m² |
@@ -118,7 +118,7 @@ La banda construida final debe verificarse sobre un levantamiento real. No se al
 ## Planta primera
 
 | Código | Estancia | Área orientativa |
-|---|---|---:|
+| --- | --- | ---: |
 | B1-P1-101 | Aula Primaria 3A | 58 m² |
 | B1-P1-102 | Aula Primaria 3B | 58 m² |
 | B1-P1-103 | Aula Primaria 4A | 58 m² |
@@ -151,7 +151,7 @@ La banda construida final debe verificarse sobre un levantamiento real. No se al
 ## Planta segunda
 
 | Código | Estancia | Área orientativa |
-|---|---|---:|
+| --- | --- | ---: |
 | B1-P2-201 | Aula Secundaria 1A | 60 m² |
 | B1-P2-202 | Aula Secundaria 1B | 60 m² |
 | B1-P2-203 | Aula Secundaria 2A | 60 m² |
