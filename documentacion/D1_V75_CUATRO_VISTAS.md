@@ -2,10 +2,12 @@
 
 **Estado de las imágenes:** AUXILIAR · **Fecha:** 2026-09-08 · **Zona:** D1 · **Decisión:** D-026 · **Base:** v74
 
-- [general](../imagenes/jardín/jardin-exterior/d1-v75-01-general.png)
-- [parras](../imagenes/jardín/jardin-exterior/d1-v75-02-parras.png)
-- [frutales](../imagenes/jardín/jardin-exterior/d1-v75-03-frutales.png)
-- [aromaticas](../imagenes/jardín/jardin-exterior/d1-v75-04-aromaticas.png)
+- [general](../imagenes/jardín/huerto/d1-v75-01-general.png)
+- [parras](../imagenes/jardín/huerto/d1-v75-02-parras.png)
+- [frutales](../imagenes/jardín/huerto/d1-v75-03-frutales.png)
+- [aromaticas — etiqueta actualizada v76](../imagenes/jardín/huerto/d1-huerto-aromaticas-v76.png)
+
+Actualización de nombres D-032: carpeta `huerto`; rótulo vigente «D1 · HUERTO DE AROMÁTICAS». El archivo v75 se conserva como antecedente. Edición mediante generador integrado: cambiar únicamente «JARDÍN» por «HUERTO», conservando encuadre y escena. No se ha certificado igualdad píxel a píxel.
 
 Vistas conceptuales de ambiente derivadas de v74 mediante generador integrado, una llamada por imagen. No sustituyen la implantación v74: los detalles próximos reinterpretan geometría, fuentes y mobiliario; no se certifica correspondencia tridimensional entre vistas ni identificación botánica. Original conservado.
 

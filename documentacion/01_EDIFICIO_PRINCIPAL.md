@@ -1,6 +1,6 @@
 # Edificio principal y claustros
 
-**Estado:** VIGENTE · **Versión:** 1.3 · **Fecha:** 2026-09-08
+**Estado:** VIGENTE · **Versión:** 1.4 · **Fecha:** 2026-09-08
 
 ## Alcance
 
@@ -52,7 +52,7 @@ El programa, la distribución y la numeración interiores se definen en [01A_PRO
 - [Croquis de cubierta](../imagenes/edificio-principal/croquis-tejado-edificio-principal.jpg)
 - [Verificación de la cubierta](../imagenes/edificio-principal/detalle-verificacion-tejado-v43.png)
 - [Fachada y acceso](../imagenes/entrada/fachada-entrada-plataneros-v36.png)
-- [Vista general vigente](../imagenes/panel-presentacion/vista-general-almendros-en-flor-v47.png)
+- [Vista general de presentación](../imagenes/panel-presentacion/vista-general-actualizada-v77.png) — síntesis conceptual; para cubierta y fachadas prevalecen sus referencias específicas.
 
 ## Errores prohibidos
 

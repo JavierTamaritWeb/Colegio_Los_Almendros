@@ -1,6 +1,6 @@
 # Cafetería, administración y servicios
 
-**Estado:** VIGENTE · **Versión:** 1.0
+**Estado:** VIGENTE · **Versión:** 1.1 · **Fecha:** 2026-09-09
 
 ## Cafetería
 
@@ -27,7 +27,7 @@
 
 ## Referencias
 
-- La posición y volumetría se comprueban en la [vista general vigente](../imagenes/panel-presentacion/vista-general-almendros-en-flor-v47.png).
+- La posición y volumetría se comprueban en la [vista general vigente](../imagenes/panel-presentacion/vista-general-actualizada-v77.png).
 - Aún no existe una serie independiente aprobada de cafetería y administración; cualquier nueva vista deberá compararse primero con la vista general.
 
 ## Errores prohibidos

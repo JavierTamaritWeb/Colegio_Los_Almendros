@@ -4,14 +4,14 @@
 
 ![Versión](https://img.shields.io/badge/versi%C3%B3n-2.0.0-1F6FEB?style=flat-square)
 ![Estado](https://img.shields.io/badge/estado-anteproyecto%20conceptual-2E7D32?style=flat-square)
-![Versión de referencias](https://img.shields.io/badge/referencias-v75-173344?style=flat-square)
+![Versión de referencias](https://img.shields.io/badge/referencias-v77-173344?style=flat-square)
 ![Validación B1](https://img.shields.io/badge/validaci%C3%B3n%20B1-aprobada-B88A38?style=flat-square)
 ![Idioma](https://img.shields.io/badge/documentaci%C3%B3n-espa%C3%B1ol-C62828?style=flat-square)
 ![Licencia](https://img.shields.io/badge/licencia-CC%20BY--NC--SA%204.0-555555?style=flat-square)
 
-![Vista general del recinto con los almendros en flor](imagenes/panel-presentacion/vista-general-almendros-en-flor-v47.png)
+![Vista general del recinto con los almendros en flor](imagenes/panel-presentacion/vista-general-actualizada-v77.png)
 
-*Vista general v47: el monasterio de dos claustros en el centro, deporte al oeste, complejo acuático al nordeste y terminal de autobuses en el extremo oriental, rodeado por naranjales valencianos.*
+*Vista general v77: el monasterio de dos claustros en el centro, deporte al oeste, complejo acuático al nordeste y terminal de autobuses en el extremo oriental, rodeado por naranjales valencianos.*
 
 ---
 
@@ -37,14 +37,14 @@ Todo el conjunto se rige por un sistema documental que garantiza la coherencia e
 
 El campus se organiza en 22 zonas con código oficial. Estos códigos se utilizan en prompts, nombres de archivo, decisiones y conversaciones para evitar cualquier ambigüedad.
 
-![Mapa maestro de zonas v48](imagenes/panel-presentacion/mapa-maestro-zonas-v48.png)
+![Mapa maestro de zonas v77](imagenes/panel-presentacion/mapa-maestro-zonas-v77.png)
 
 | Grupo | Códigos | Contenido |
 | --- | --- | --- |
 | **A · Acceso y paisaje** | A1 – A4 | Cancela principal, avenida ceremonial con plátanos y los dos almendrales |
 | **B · Edificio histórico** | B1 – B3 | Edificio principal, claustro sur y claustro norte |
 | **C · Deporte oeste** | C1 – C3 | Atletismo y fútbol, pistas de tenis y el único gimnasio del campus |
-| **D · Complejo nordeste** | D1 – D5 | Jardín mediterráneo, centro acuático, pabellones de fútbol sala y voleibol, cafetería |
+| **D · Complejo nordeste** | D1 – D5 | Huerto mediterráneo, centro acuático, pabellones de fútbol sala y voleibol, cafetería |
 | **E · Estancia y servicios** | E1 – E3 | Parque infantil, parque de estancia con 14 bancos, administración y seguridad |
 | **F · Movilidad** | F1 – F2 | Aparcamiento de coches y terminal pasante de autobuses |
 | **G · Recinto y entorno** | G1 – G2 | Cerramiento perimetral y naranjales exteriores |
@@ -129,7 +129,7 @@ node herramientas/actualizar_claustros_30m.mjs
 Resultado actual del validador:
 
 ```text
-VALIDACIONES CORRECTAS: 795
+VALIDACIONES CORRECTAS: 771
 RESULTADO B1: APROBADO A NIVEL DE ANTEPROYECTO CONCEPTUAL
 ```
 
@@ -151,8 +151,8 @@ RESULTADO B1: APROBADO A NIVEL DE ANTEPROYECTO CONCEPTUAL
 ## Estado del proyecto
 
 - **Versión 2.0.0**: retirada de referencias antes vigentes y nueva regla de plantación de los claustros. Historial en [`CHANGELOG.md`](CHANGELOG.md).
-- **31 decisiones consolidadas** (`D-001` a `D-031`); D-020 a D-023 fijan relojes de sol, pozo, cruce adoquinado e iluminación de los claustros; D-025 y D-026 redefinen la vegetación de E2 y D1; D-029 retira del proyecto las ediciones v61–v67, v72, v73 y las vistas antiguas del parque; D-030 ratifica la plantación tropical de los claustros.
-- **Referencias visuales hasta v75**, con panel exterior de ocho miniaturas, panel interior de 36 escenas, E2 v69–v71 y huerto D1 v74–v75.
+- **34 decisiones consolidadas** (`D-001` a `D-034`); D-020 a D-023 fijan relojes de sol, pozo, cruce adoquinado e iluminación de los claustros; D-025 y D-026 redefinen la vegetación de E2 y D1; D-029 retira del proyecto las ediciones v61–v67, v72, v73 y las vistas antiguas del parque; D-030 ratifica la plantación tropical de los claustros.
+- **Referencias visuales hasta v77**, con panel exterior de ocho miniaturas, panel interior de 36 escenas, E2 v69–v71 y huerto D1 v74–v75.
 - **Anteproyecto conceptual**: las superficies y distribuciones son preliminares y deberán ajustarse tras un levantamiento métrico y estructural del edificio, así como al cumplimiento de la normativa educativa, de incendios y de accesibilidad.
 
 ---

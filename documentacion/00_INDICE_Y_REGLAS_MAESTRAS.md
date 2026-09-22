@@ -1,7 +1,7 @@
 # Colegio Los Almendros — índice y reglas maestras
 
 **Estado:** VIGENTE  
-**Versión:** 1.2  
+**Versión:** 1.3
 **Fecha:** 2026-09-08
 
 ## Finalidad
@@ -56,6 +56,8 @@ D1 — Huerto mediterráneo posterior (las fichas v72 y v73 fueron retiradas por
 - [D1_V75_CUATRO_VISTAS.md](D1_V75_CUATRO_VISTAS.md) — cuatro vistas de ambiente
 
 ## Masterplan fijo
+
+Presentación y localización actualizadas: [PANEL_MAPA_V77.md](PANEL_MAPA_V77.md) — panel exterior, mapa y retirada autorizada (D-033).
 
 Norte está arriba y sur abajo en todas las plantas. La secuencia oeste-este es invariable:
 

@@ -1,6 +1,6 @@
 # Piscinas y pabellones cubiertos
 
-**Estado:** VIGENTE · **Versión:** 1.0
+**Estado:** VIGENTE · **Versión:** 1.1 · **Fecha:** 2026-09-09
 
 ## Posición y composición
 
@@ -38,7 +38,7 @@
 - [Vista aérea del complejo](../imagenes/piscina/piscinas-vista-aerea-v23.png)
 - [Cubierta retráctil cerrada](../imagenes/piscina/piscinas-con-cubierta.png)
 - [Cubierta retráctil abierta](../imagenes/piscina/piscinas-sin-cubierta.png)
-- [Vista general vigente](../imagenes/panel-presentacion/vista-general-almendros-en-flor-v47.png)
+- [Vista general vigente](../imagenes/panel-presentacion/vista-general-actualizada-v77.png)
 
 ## Errores prohibidos
 

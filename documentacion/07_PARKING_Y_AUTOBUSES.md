@@ -1,6 +1,6 @@
 # Aparcamiento de coches y terminal de autobuses
 
-**Estado:** VIGENTE · **Versión:** 1.0
+**Estado:** VIGENTE · **Versión:** 1.1 · **Fecha:** 2026-09-09
 
 ## Aparcamiento de coches
 
@@ -30,7 +30,7 @@
 ## Referencias autorizadas
 
 - [Terminal funcional](../imagenes/parking/parking-bus.png)
-- [Vista general vigente](../imagenes/panel-presentacion/vista-general-almendros-en-flor-v47.png)
+- [Vista general vigente](../imagenes/panel-presentacion/vista-general-actualizada-v77.png)
 
 ## Lista de aceptación
 

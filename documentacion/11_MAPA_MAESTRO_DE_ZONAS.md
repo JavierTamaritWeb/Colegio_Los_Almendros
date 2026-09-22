@@ -1,7 +1,7 @@
 # Mapa maestro de zonas
 
 **Estado:** VIGENTE  
-**Versión:** 1.1  
+**Versión:** 1.3
 **Fecha:** 2026-09-08
 
 ## Finalidad
@@ -10,9 +10,11 @@ Este documento establece los nombres y códigos oficiales de las zonas del Coleg
 
 ## Mapa oficial
 
-[Abrir el mapa maestro rotulado](../imagenes/panel-presentacion/mapa-maestro-zonas-v48.png)
+Actualización D-033: mapa v77 sobre vista general actualizada, con huerto D1, datileras de E2 y claustros. Se conservan los 22 códigos y sus nombres, incluido Huerto mediterráneo posterior (D-032). Rótulos compuestos de forma determinista y posiciones revisadas visualmente. Es un mapa de localización conceptual, no una planta métrica. Véase [PANEL_MAPA_V77.md](PANEL_MAPA_V77.md).
 
-![Mapa maestro de zonas](../imagenes/panel-presentacion/mapa-maestro-zonas-v48.png)
+[Abrir el mapa maestro rotulado](../imagenes/panel-presentacion/mapa-maestro-zonas-v77.png)
+
+![Mapa maestro de zonas](../imagenes/panel-presentacion/mapa-maestro-zonas-v77.png)
 
 ## A · Acceso y paisaje de entrada
 
@@ -43,7 +45,7 @@ Este documento establece los nombres y códigos oficiales de las zonas del Coleg
 
 | Código | Nombre oficial | Alcance |
 | --- | --- | --- |
-| D1 | Jardín mediterráneo posterior | Huerto mediterráneo al norte de B3 (frutales, parras, aromáticas, D-026) y seto de murta |
+| D1 | Huerto mediterráneo posterior | Huerto mediterráneo al norte de B3 (frutales, parras, aromáticas, D-026) y seto de murta |
 | D2 | Centro acuático y piscinas | Piscina olímpica, piscina de iniciación y cubierta retráctil |
 | D3 | Pabellón de fútbol sala | Pabellón cerrado y completamente cubierto |
 | D4 | Pabellón de voleibol | Pabellón cerrado y completamente cubierto |
@@ -94,4 +96,4 @@ Este documento establece los nombres y códigos oficiales de las zonas del Coleg
 - [ ] Cada marcador está situado dentro de su zona.
 - [ ] No hay códigos repetidos.
 - [ ] La orientación norte-sur coincide con el masterplan.
-- [ ] La imagen base es la vista general vigente v47.
+- [x] La imagen base es la síntesis general v77.

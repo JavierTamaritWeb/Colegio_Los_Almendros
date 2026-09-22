@@ -6,7 +6,16 @@ Las decisiones de diseño se registran en [`documentacion/10_CAMBIOS_Y_DECISIONE
 
 ## [Sin publicar]
 
+### Actualizado
+
+- Retiradas por petición expresa las vistas generales v43 y v47; referencias operativas redirigidas a v77, conservando el detalle específico de cubierta v43 (D-034).
+
+- Panel exterior y mapa maestro v77 sobre una síntesis visual con huerto D1, datileras E2 y claustros actualizados. Ocho miniaturas existentes y 22 códigos sin renumerar (D-033).
+- Retirada autorizada de 14 imágenes superadas, con copia temporal verificada; registro y enlaces sincronizados.
+
 ### Corregido
+
+- D1: carpeta `jardin-exterior` renombrada a `huerto`, rutas actualizadas y nombre «Huerto» en documentación, mapa y vista de aromáticas v76 (D-032). Se conservan las imágenes anteriores.
 
 - Todos los `.md` pasan `markdownlint` con la configuración nueva de `.markdownlint.json`: el `README.md` sustituye el HTML por Markdown puro, los bloques de código declaran lenguaje y los separadores de tabla usan el estilo `| --- |`.
 

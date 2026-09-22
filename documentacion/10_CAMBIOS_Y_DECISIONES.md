@@ -1,6 +1,6 @@
 # Cambios y decisiones del proyecto
 
-**Estado:** VIGENTE · **Versión:** 1.2 · **Fecha:** 2026-09-08
+**Estado:** VIGENTE · **Versión:** 1.5 · **Fecha:** 2026-09-09
 
 Este documento registra decisiones consolidadas. Una decisión nueva debe indicar fecha, sección afectada, referencia resultante y documentos que requieren actualización.
 
@@ -39,6 +39,11 @@ Este documento registra decisiones consolidadas. Una decisión nueva debe indica
 | D-029 | 2026-09-08 | El usuario retira del proyecto 13 imágenes y sus 8 fichas: claustros v61–v67, huerto D1 v72 y v73, seto de murta v21 y parque-bancos v28, v29 y v31. | Se eliminan sus archivos, filas de `09`, fichas y enlaces. Las reglas de diseño que ilustraban (D-018, D-020 a D-023, D-025, D-026) siguen vigentes por escrito. Hasta nueva imagen, E2 carece de planta ortogonal. |
 | D-030 | 2026-09-08 | Se ratifica la plantación de porte tropical en B2 y B3 propuesta en v68: monsteras, aves del paraíso y ficus formados como pequeños árboles, sobre el trazado adoquinado en cruz. Sustituye la vegetación mediterránea de D-018; adoquines, cruce, pozo, fuente y relojes se mantienen. | v68 pasa a `VIGENTE` y es la referencia de los claustros; `01` actualiza su regla de plantación; la prohibición de especies tropicales queda restringida a D1 en `05`. Propuesta visual: especies, microclima, hielo, raíces y mantenimiento requieren comprobación hortícola. |
 | D-031 | 2026-09-08 | Se publica la versión 2.0.0 del repositorio. | Versión mayor por la retirada de referencias antes vigentes (D-029) y el cambio de la regla de plantación de los claustros (D-030). `README.md`, `CHANGELOG.md` y etiqueta `v2.0.0` actualizados; el validador comprueba la coherencia entre ambos. |
+| D-032 | 2026-09-08 | D1 se denomina Huerto mediterráneo posterior; carpeta jardin-exterior renombrada a huerto. | Traslado con Git, enlaces actualizados y etiquetas de mapa y aromáticas corregidas en v76. E2 y claustros mantienen sus nombres. No cambia el diseño. |
+
+| D-033 | 2026-09-08 | El usuario solicita actualizar el panel v46 y mapa v76 y eliminar imágenes obsoletas. Se entregan panel, mapa y síntesis general v77 con D1, E2 y claustros actualizados. | Se retiran 12 imágenes marcadas OBSOLETA y los dos archivos reemplazados, con copia temporal de recuperación. Registro y enlaces actualizados; lista completa, fuentes, método y límites en PANEL_MAPA_V77.md. No cambia el programa ni los códigos de zona. |
+
+| D-034 | 2026-09-09 | Retirada expresa de vista-completa-complejo-tejado-fiel-v43.png y vista-general-almendros-en-flor-v47.png. | Eliminadas ambas imágenes y sus filas del registro; enlaces operativos dirigidos a la síntesis v77. Se conserva el detalle de cubierta v43, que no se ha solicitado eliminar. Copia temporal verificada: /private/tmp/colegio-almendros-v43-v47-20260909.tar.gz. |
 
 Los identificadores siguen el orden de registro, no el cronológico: la fecha de cada fila es la de la petición del usuario, por lo que puede ser anterior a la de una fila precedente (p. ej. D-026 y D-027).
 
@@ -89,7 +94,7 @@ Errores detectados y regla que los evita en adelante:
 **Fecha:** 2026-09-08  
 **Resultado:** APROBADA (versión 2.0.0)
 
-- 20 documentos presentes: índice, once módulos, mapa maestro, dos documentos del programa interior y seis fichas de versión (claustros v68, E2 v69–v71, D1 v74–v75), todos enlazados desde el índice y con cabecera de estado, zona y decisión.
+- 21 documentos presentes, incluida la nueva ficha del panel y mapa v77; todos enlazados desde el índice.
 - `validar_b1.mjs` aprueba sin errores con las comprobaciones ampliadas de D-028 y D-031 (citas `D-NNN`, cabeceras de ficha, contadores y versión del `README.md`).
 - Los 13 archivos retirados por D-029 no tienen ya ningún enlace ni fila; todas las imágenes presentes figuran en el registro con su estado.
 - La plantación de los claustros queda ratificada (D-030) y v68 es su referencia vigente; no quedan contradicciones de diseño abiertas.

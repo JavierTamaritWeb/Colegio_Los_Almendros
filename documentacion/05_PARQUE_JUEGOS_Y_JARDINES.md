@@ -1,6 +1,6 @@
 # Parque, juegos infantiles y jardines
 
-**Estado:** VIGENTE · **Versión:** 1.2 · **Fecha:** 2026-09-08
+**Estado:** VIGENTE · **Versión:** 1.3 · **Fecha:** 2026-09-08
 
 ## Parque infantil
 
@@ -30,7 +30,7 @@
 - Planta, alzado y perfil reproducen los mismos caminos, bancos y vegetación.
 - Estado actual: las vistas ortogonales anteriores (planta v29, alzado v28, perfil v31) fueron retiradas del proyecto (D-029). El trazado y los 14 bancos se rigen por el texto de este módulo hasta que exista una planta ortogonal nueva. v69, v70 y v71 son conceptuales con perspectiva residual y no sustituyen a planta, alzado ni perfil.
 
-## Jardín mediterráneo posterior
+## Huerto mediterráneo posterior — D1
 
 - D1 se transforma por petición del usuario en huerto mediterráneo (D-026): olivos, clementinos, limoneros, kumquats, parras de Malvasía para sombra, arcadas de jazmín, maría luisa y bancales de aromáticas. Implantación vigente: [v74](D1_V74_PARRAS.md); vistas de ambiente: [v75](D1_V75_CUATRO_VISTAS.md). Este programa vegetal prevalece sobre la lista anterior de especies; se conservan límites y accesos.
 
@@ -43,7 +43,7 @@
 ## Referencias autorizadas
 
 - [Composición vegetal de E2 v69](../imagenes/jardín/parque-principal/e2-jardin-datileras-v69.png) (conceptual; trazado y bancos según el texto de este módulo)
-- [Huerto mediterráneo D1 v74](../imagenes/jardín/jardin-exterior/d1-parras-protagonistas-v74.png) (conceptual; incluye el seto de murta perimetral)
+- [Huerto mediterráneo D1 v74](../imagenes/jardín/huerto/d1-parras-protagonistas-v74.png) (conceptual; incluye el seto de murta perimetral)
 - Retiradas por D-029: planta v29, alzado v28, perfil v31 del parque y detalle del seto de murta v21.
 
 ## Lista de aceptación

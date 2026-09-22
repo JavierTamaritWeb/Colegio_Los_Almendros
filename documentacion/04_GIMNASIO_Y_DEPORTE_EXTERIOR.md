@@ -1,6 +1,6 @@
 # Gimnasio y deporte exterior
 
-**Estado:** VIGENTE · **Versión:** 1.0
+**Estado:** VIGENTE · **Versión:** 1.1 · **Fecha:** 2026-09-09
 
 ## Gimnasio único
 
@@ -36,7 +36,7 @@
 
 - [Interior del gimnasio](../imagenes/gimnasio/gimnasio.png)
 - [Recorte auxiliar de la zona deportiva](../imagenes/gimnasio/detalle-zona-deportiva-exterior-v45.png)
-- [Vista general vigente](../imagenes/panel-presentacion/vista-general-almendros-en-flor-v47.png)
+- [Vista general vigente](../imagenes/panel-presentacion/vista-general-actualizada-v77.png)
 
 ## Lista de aceptación
 

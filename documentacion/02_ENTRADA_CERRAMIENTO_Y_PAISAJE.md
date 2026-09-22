@@ -1,6 +1,6 @@
 # Entrada, cerramiento y paisaje de acceso
 
-**Estado:** VIGENTE · **Versión:** 1.0
+**Estado:** VIGENTE · **Versión:** 1.1 · **Fecha:** 2026-09-09
 
 ## Eje principal
 
@@ -37,7 +37,7 @@
 - [Fachada, avenida y plátanos](../imagenes/entrada/fachada-entrada-plataneros-v36.png)
 - [Cancela principal](../imagenes/entrada/cancela.png)
 - [Muro y verja perimetral](../imagenes/entrada/detalle-muro-verja-perimetral-v45.png)
-- [Almendros en flor en las parcelas de acceso](../imagenes/panel-presentacion/vista-general-almendros-en-flor-v47.png)
+- [Almendros en flor en las parcelas de acceso](../imagenes/panel-presentacion/vista-general-actualizada-v77.png)
 
 ## Lista de aceptación
 

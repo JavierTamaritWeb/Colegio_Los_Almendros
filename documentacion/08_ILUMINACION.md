@@ -1,6 +1,6 @@
 # Iluminación exterior
 
-**Estado:** VIGENTE · **Versión:** 1.0
+**Estado:** VIGENTE · **Versión:** 1.1 · **Fecha:** 2026-09-09
 
 ## Familias de luminarias
 
@@ -23,7 +23,7 @@
 
 ## Referencias
 
-- Posiciones generales: [vista general vigente](../imagenes/panel-presentacion/vista-general-almendros-en-flor-v47.png).
+- Posiciones generales: [vista general vigente](../imagenes/panel-presentacion/vista-general-actualizada-v77.png).
 - Lenguaje de forja: [cancela principal](../imagenes/entrada/cancela.png).
 - El proyecto no dispone todavía de una lámina independiente vigente que documente todas las posiciones de iluminación; debe crearse antes de alterar su distribución.
 

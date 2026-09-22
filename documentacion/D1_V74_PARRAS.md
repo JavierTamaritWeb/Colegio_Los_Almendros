@@ -4,7 +4,7 @@
 
 Programa vegetal solicitado (procede de la ficha v72, retirada): olivos, clementinos, limoneros, kumquats, vid Malvasía en dos pérgolas, jazmín en arcadas y maría luisa. Aromáticas: romero, tomillo, lavanda, salvia, orégano, mejorana, ajedrea y hierbabuena contenida en macetas; caléndulas como acento. Se conservan eje norte-sur, diagonales, nodos circulares y seto de murta con aperturas de acceso. La identificación de especies no queda certificada por el render; se requiere un plano de plantación.
 
-[Imagen](../imagenes/jardín/jardin-exterior/d1-parras-protagonistas-v74.png)
+[Imagen](../imagenes/jardín/huerto/d1-parras-protagonistas-v74.png)
 
 Se amplían visualmente las dos pérgolas existentes y se aumenta la frondosidad de las parras de Malvasía, con racimos visibles y zonas de asiento bajo sombra vegetal. Se mantienen eje central, fuentes, diagonales principales y carácter de huerto mediterráneo. Propuesta conceptual: tamaño de racimos, especie, estructura y dimensiones requieren definición técnica; no son datos medidos. La ampliación puede requerir ajustar plantaciones adyacentes en el plano de ejecución. Versión base v73 retirada posteriormente por D-029.
 
